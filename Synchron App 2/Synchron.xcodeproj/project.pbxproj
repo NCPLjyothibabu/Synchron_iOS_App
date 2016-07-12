@@ -1,0 +1,1900 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2ECA49A1C0506BABD750BBC5 /* libPods-Synchron.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E96C1737B2A72F73BA90AAC9 /* libPods-Synchron.a */; };
+		4C2E73CE483C0197352ECF4C /* libPods-SynchronUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00E6E5DCD45048E65FE97A92 /* libPods-SynchronUITests.a */; };
+		EE015F5A1CDA12AD00DC349C /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE015F591CDA12AC00DC349C /* AssetsLibrary.framework */; };
+		EE0160DA1CDB4CD300DC349C /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0160D91CDB4CD300DC349C /* call.png */; };
+		EE0160DD1CDB4DA200DC349C /* callViewCon.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0160DC1CDB4DA200DC349C /* callViewCon.m */; };
+		EE0160E21CDB5A3400DC349C /* 014 Synchron_Advisorprofile_First Name icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0160DE1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_First Name icon.png */; };
+		EE0160E31CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Last Name icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0160DF1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Last Name icon.png */; };
+		EE0160E41CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Ophone icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0160E01CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Ophone icon.png */; };
+		EE0160E51CDB5A3400DC349C /* 014 Synchron_Advisorprofile_title icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0160E11CDB5A3400DC349C /* 014 Synchron_Advisorprofile_title icon.png */; };
+		EE04297B1CCE48C10052FEBC /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EE04297A1CCE48C10052FEBC /* profile.png */; };
+		EE04297D1CD0ABE80052FEBC /* 003 Synchron_-UEvents_list_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EE04297C1CD0ABE80052FEBC /* 003 Synchron_-UEvents_list_selected.png */; };
+		EE0429801CD0B91B0052FEBC /* 004 Synchron_Menu_TM_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE04297E1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_active icon.png */; };
+		EE0429811CD0B91B0052FEBC /* 004 Synchron_Menu_TM_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE04297F1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_inactive icon.png */; };
+		EE0429831CD0C3450052FEBC /* narayana.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0429821CD0C3450052FEBC /* narayana.png */; };
+		EE0429861CD0C4EB0052FEBC /* TeamCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0429851CD0C4EB0052FEBC /* TeamCollection.m */; };
+		EE0429891CD0C5100052FEBC /* BusinessPartnersCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0429881CD0C5100052FEBC /* BusinessPartnersCollection.m */; };
+		EE04298C1CD0DF6B0052FEBC /* MarkAttendance.m in Sources */ = {isa = PBXBuildFile; fileRef = EE04298B1CD0DF6B0052FEBC /* MarkAttendance.m */; };
+		EE0ECC8E1CD21F4400B153C4 /* SpeakerTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECC8D1CD21F4400B153C4 /* SpeakerTableCell.m */; };
+		EE0ECC901CD38C1000B153C4 /* 014 Synchron_Advisorprofile_tintbg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC8F1CD38C1000B153C4 /* 014 Synchron_Advisorprofile_tintbg.png */; };
+		EE0ECC921CD38D5000B153C4 /* 014 Synchron_Advisorprofile_text filed.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC911CD38D5000B153C4 /* 014 Synchron_Advisorprofile_text filed.png */; };
+		EE0ECC941CD390D300B153C4 /* 014 Synchron_Advisorprofile_user icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC931CD390D300B153C4 /* 014 Synchron_Advisorprofile_user icon.png */; };
+		EE0ECC961CD390DE00B153C4 /* 014 Synchron_Advisorprofile_location icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC951CD390DE00B153C4 /* 014 Synchron_Advisorprofile_location icon.png */; };
+		EE140F6A1CE49568005EA5C0 /* iPhone3.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE140F691CE49568005EA5C0 /* iPhone3.5inch.storyboard */; };
+		EE647FCA1CD766820090C49D /* 002 Synchron_Signin_signin_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE647FC91CD766820090C49D /* 002 Synchron_Signin_signin_btn.png */; };
+		EE6922D4AC018D66372880B8 /* libPods-SynchronTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E8A92266E6ACDB5042EA0A4 /* libPods-SynchronTests.a */; };
+		EE6ED3461CB3E51900DBEF86 /* EventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6ED3451CB3E51900DBEF86 /* EventTableViewCell.m */; };
+		EE6ED3E21CB4C71400DBEF86 /* 001 Synchron_Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3491CB4C71400DBEF86 /* 001 Synchron_Splash.png */; };
+		EE6ED3E31CB4C71400DBEF86 /* 002 Synchron_Signin_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED34B1CB4C71400DBEF86 /* 002 Synchron_Signin_checkbox.png */; };
+		EE6ED3E41CB4C71400DBEF86 /* 002 Synchron_Signin_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED34C1CB4C71400DBEF86 /* 002 Synchron_Signin_navbar.png */; };
+		EE6ED3E51CB4C71400DBEF86 /* 002 Synchron_Signin_password_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED34D1CB4C71400DBEF86 /* 002 Synchron_Signin_password_icon.png */; };
+		EE6ED3E71CB4C71400DBEF86 /* 002 Synchron_Signin_text_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED34F1CB4C71400DBEF86 /* 002 Synchron_Signin_text_field.png */; };
+		EE6ED3E81CB4C71400DBEF86 /* 002 Synchron_Signin_topimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3501CB4C71400DBEF86 /* 002 Synchron_Signin_topimage.png */; };
+		EE6ED3E91CB4C71400DBEF86 /* 002 Synchron_Signin_uncheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3511CB4C71400DBEF86 /* 002 Synchron_Signin_uncheckbox.png */; };
+		EE6ED3EA1CB4C71400DBEF86 /* 002 Synchron_Signin_username_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3521CB4C71400DBEF86 /* 002 Synchron_Signin_username_icon.png */; };
+		EE6ED3EB1CB4C71400DBEF86 /* 003 Synchron_UEvents_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3541CB4C71400DBEF86 /* 003 Synchron_UEvents_bg.png */; };
+		EE6ED3EF1CB4C71400DBEF86 /* 003 Synchron_UEvents_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3581CB4C71400DBEF86 /* 003 Synchron_UEvents_navbar.png */; };
+		EE6ED3F01CB4C71400DBEF86 /* 003 Synchron_UEvents_profile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3591CB4C71400DBEF86 /* 003 Synchron_UEvents_profile_icon.png */; };
+		EE6ED3F11CB4C71400DBEF86 /* 003 Synchron_UEvents_subtitlebar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED35A1CB4C71400DBEF86 /* 003 Synchron_UEvents_subtitlebar.png */; };
+		EE6ED3F21CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED35C1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_active icon.png */; };
+		EE6ED3F31CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED35D1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_inactive icon.png */; };
+		EE6ED3F41CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED35E1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_active icon.png */; };
+		EE6ED3F51CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED35F1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_inactive icon.png */; };
+		EE6ED3F61CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3601CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_active icon.png */; };
+		EE6ED3F71CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3611CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_inactive icon.png */; };
+		EE6ED3F81CB4C71400DBEF86 /* 004 Synchron_Menu_Call icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3621CB4C71400DBEF86 /* 004 Synchron_Menu_Call icon.png */; };
+		EE6ED3F91CB4C71400DBEF86 /* 004 Synchron_Menu_divideline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3631CB4C71400DBEF86 /* 004 Synchron_Menu_divideline.png */; };
+		EE6ED3FA1CB4C71400DBEF86 /* 004 Synchron_Menu_Events_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3641CB4C71400DBEF86 /* 004 Synchron_Menu_Events_active icon.png */; };
+		EE6ED3FB1CB4C71400DBEF86 /* 004 Synchron_Menu_Events_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3651CB4C71400DBEF86 /* 004 Synchron_Menu_Events_inactive icon.png */; };
+		EE6ED3FC1CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3661CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG active.png */; };
+		EE6ED3FD1CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3671CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG inactive.png */; };
+		EE6ED3FE1CB4C71400DBEF86 /* 004 Synchron_Menu_locationl icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3681CB4C71400DBEF86 /* 004 Synchron_Menu_locationl icon.png */; };
+		EE6ED3FF1CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3691CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_active icon.png */; };
+		EE6ED4001CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36A1CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_inactive icon.png */; };
+		EE6ED4011CB4C71400DBEF86 /* 004 Synchron_Menu_menu bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36B1CB4C71400DBEF86 /* 004 Synchron_Menu_menu bg.png */; };
+		EE6ED4021CB4C71400DBEF86 /* 004 Synchron_Menu_profile_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36C1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_active icon.png */; };
+		EE6ED4031CB4C71400DBEF86 /* 004 Synchron_Menu_profile_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36D1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_inactive icon.png */; };
+		EE6ED4041CB4C71400DBEF86 /* 004 Synchron_Menu_signout_active icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36E1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_active icon.png */; };
+		EE6ED4051CB4C71400DBEF86 /* 004 Synchron_Menu_signout_inactive icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED36F1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_inactive icon.png */; };
+		EE6ED4061CB4C71400DBEF86 /* 004 Synchron_Menu_web icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3701CB4C71400DBEF86 /* 004 Synchron_Menu_web icon.png */; };
+		EE6ED4071CB4C71400DBEF86 /* 004 Synchron_profile pic.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3711CB4C71400DBEF86 /* 004 Synchron_profile pic.png */; };
+		EE6ED4081CB4C71400DBEF86 /* 005 Synchron_Eventdetails_agendapoint mark.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3731CB4C71400DBEF86 /* 005 Synchron_Eventdetails_agendapoint mark.png */; };
+		EE6ED4091CB4C71400DBEF86 /* 005 Synchron_Eventdetails_attendance bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3741CB4C71400DBEF86 /* 005 Synchron_Eventdetails_attendance bg.png */; };
+		EE6ED40A1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3751CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar.png */; };
+		EE6ED40B1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3761CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_backbtn.png */; };
+		EE6ED40C1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_comment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3771CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_comment_icon.png */; };
+		EE6ED40D1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_RSVP_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3781CB4C71400DBEF86 /* 005 Synchron_Eventdetails_RSVP_btn.png */; };
+		EE6ED40E1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_submit_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3791CB4C71400DBEF86 /* 005 Synchron_Eventdetails_submit_btn.png */; };
+		EE6ED40F1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37A1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda active.png */; };
+		EE6ED4101CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37B1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda inactive.png */; };
+		EE6ED4111CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37C1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance active.png */; };
+		EE6ED4121CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37D1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance inactive.png */; };
+		EE6ED4131CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37E1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location active.png */; };
+		EE6ED4141CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED37F1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location inactive.png */; };
+		EE6ED4151CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3801CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker active.png */; };
+		EE6ED4161CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3811CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker inactive.png */; };
+		EE6ED4171CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tabbottomline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3821CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tabbottomline.png */; };
+		EE6ED4181CB4C71400DBEF86 /* 006 Synchron_QRCode_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3841CB4C71400DBEF86 /* 006 Synchron_QRCode_menu_icon.png */; };
+		EE6ED4191CB4C71400DBEF86 /* 006 Synchron_QRCode_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3851CB4C71400DBEF86 /* 006 Synchron_QRCode_navbar.png */; };
+		EE6ED41A1CB4C71400DBEF86 /* 006 Synchron_QRCode_subtilte.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3861CB4C71400DBEF86 /* 006 Synchron_QRCode_subtilte.png */; };
+		EE6ED41B1CB4C71400DBEF86 /* 006 Synchron_QRCode_topimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3871CB4C71400DBEF86 /* 006 Synchron_QRCode_topimage.png */; };
+		EE6ED41C1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3891CB4C71400DBEF86 /* 007 Synchron_Activityfeed_addimage.png */; };
+		EE6ED41D1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_IMessage field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED38A1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_IMessage field.png */; };
+		EE6ED41E1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED38B1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar.png */; };
+		EE6ED41F1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED38C1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_backbtn.png */; };
+		EE6ED4201CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_galleryicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED38D1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_galleryicon.png */; };
+		EE6ED4211CB4C71400DBEF86 /* 007 Synchron_Activityfeed_voicemessage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED38E1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_voicemessage.png */; };
+		EE6ED4221CB4C71400DBEF86 /* 008 Synchron_Eventchat__navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3901CB4C71400DBEF86 /* 008 Synchron_Eventchat__navbar.png */; };
+		EE6ED4231CB4C71400DBEF86 /* 008 Synchron_Eventchat_addimage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3911CB4C71400DBEF86 /* 008 Synchron_Eventchat_addimage.png */; };
+		EE6ED4241CB4C71400DBEF86 /* 008 Synchron_Eventchat_cancel_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3921CB4C71400DBEF86 /* 008 Synchron_Eventchat_cancel_btn.png */; };
+		EE6ED4251CB4C71400DBEF86 /* 008 Synchron_Eventchat_choosephoto_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3931CB4C71400DBEF86 /* 008 Synchron_Eventchat_choosephoto_btn.png */; };
+		EE6ED4261CB4C71400DBEF86 /* 008 Synchron_Eventchat_IMessage field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3941CB4C71400DBEF86 /* 008 Synchron_Eventchat_IMessage field.png */; };
+		EE6ED4271CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3951CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_backbtn.png */; };
+		EE6ED4281CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_galleryicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3961CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_galleryicon.png */; };
+		EE6ED4291CB4C71400DBEF86 /* 008 Synchron_Eventchat_popwindowbg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3971CB4C71400DBEF86 /* 008 Synchron_Eventchat_popwindowbg.png */; };
+		EE6ED42A1CB4C71400DBEF86 /* 008 Synchron_Eventchat_takephoto_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3981CB4C71400DBEF86 /* 008 Synchron_Eventchat_takephoto_btn.png */; };
+		EE6ED42B1CB4C71400DBEF86 /* 008 Synchron_Eventchat_voicemessage.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3991CB4C71400DBEF86 /* 008 Synchron_Eventchat_voicemessage.png */; };
+		EE6ED42C1CB4C71400DBEF86 /* 009 Synchron_Gallery__navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED39B1CB4C71400DBEF86 /* 009 Synchron_Gallery__navbar.png */; };
+		EE6ED42D1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED39C1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_backbtn.png */; };
+		EE6ED42E1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_homebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED39D1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_homebtn.png */; };
+		EE6ED42F1CB4C71400DBEF86 /* 009 Synchron_Gallery_thumbwindowframe.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED39E1CB4C71400DBEF86 /* 009 Synchron_Gallery_thumbwindowframe.png */; };
+		EE6ED4301CB4C71400DBEF86 /* 010 Synchron_GPPreview_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A01CB4C71400DBEF86 /* 010 Synchron_GPPreview_menu_icon.png */; };
+		EE6ED4311CB4C71400DBEF86 /* 010 Synchron_GPPreview_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A11CB4C71400DBEF86 /* 010 Synchron_GPPreview_navbar.png */; };
+		EE6ED4321CB4C71400DBEF86 /* 010 Synchron_GPPreview_shareicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A21CB4C71400DBEF86 /* 010 Synchron_GPPreview_shareicon.png */; };
+		EE6ED4331CB4C71400DBEF86 /* 010 Synchron_GPPreview_subtitlebarbg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A31CB4C71400DBEF86 /* 010 Synchron_GPPreview_subtitlebarbg.png */; };
+		EE6ED4341CB4C71400DBEF86 /* 011 Synchron_Teammembers__navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A51CB4C71400DBEF86 /* 011 Synchron_Teammembers__navbar.png */; };
+		EE6ED4351CB4C71400DBEF86 /* 011 Synchron_Teammembers_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A61CB4C71400DBEF86 /* 011 Synchron_Teammembers_menu_icon.png */; };
+		EE6ED4361CB4C71400DBEF86 /* 011 Synchron_Teammembers_navbar_homebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A71CB4C71400DBEF86 /* 011 Synchron_Teammembers_navbar_homebtn.png */; };
+		EE6ED4371CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_bottomline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A81CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_bottomline.png */; };
+		EE6ED4381CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3A91CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_active.png */; };
+		EE6ED4391CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3AA1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_inactive.png */; };
+		EE6ED43A1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_active.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3AB1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_active.png */; };
+		EE6ED43B1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_inactive.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3AC1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_inactive.png */; };
+		EE6ED43C1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbframe.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3AD1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbframe.png */; };
+		EE6ED43D1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbinfoicon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3AE1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbinfoicon.png */; };
+		EE6ED43E1CB4C71400DBEF86 /* 012 Synchron_Profile__navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B01CB4C71400DBEF86 /* 012 Synchron_Profile__navbar.png */; };
+		EE6ED43F1CB4C71400DBEF86 /* 012 Synchron_Profile_editprofile_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B11CB4C71400DBEF86 /* 012 Synchron_Profile_editprofile_icon.png */; };
+		EE6ED4401CB4C71400DBEF86 /* 012 Synchron_Profile_email_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B21CB4C71400DBEF86 /* 012 Synchron_Profile_email_field.png */; };
+		EE6ED4411CB4C71400DBEF86 /* 012 Synchron_Profile_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B31CB4C71400DBEF86 /* 012 Synchron_Profile_menu_icon.png */; };
+		EE6ED4421CB4C71400DBEF86 /* 012 Synchron_Profile_mobile_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B41CB4C71400DBEF86 /* 012 Synchron_Profile_mobile_field.png */; };
+		EE6ED4431CB4C71400DBEF86 /* 012 Synchron_Profile_password_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B51CB4C71400DBEF86 /* 012 Synchron_Profile_password_field.png */; };
+		EE6ED4441CB4C71400DBEF86 /* 012 Synchron_Profile_phone_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B61CB4C71400DBEF86 /* 012 Synchron_Profile_phone_field.png */; };
+		EE6ED4451CB4C71400DBEF86 /* 012 Synchron_Profile_pic bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B71CB4C71400DBEF86 /* 012 Synchron_Profile_pic bg.png */; };
+		EE6ED4461CB4C71400DBEF86 /* 012 Synchron_Profile_profilepicgrame.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B81CB4C71400DBEF86 /* 012 Synchron_Profile_profilepicgrame.png */; };
+		EE6ED4471CB4C71400DBEF86 /* 012 Synchron_Profile_subtitle bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3B91CB4C71400DBEF86 /* 012 Synchron_Profile_subtitle bar.png */; };
+		EE6ED4481CB4C71400DBEF86 /* 013 Synchron_Profileedit_addprofilepic.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3BB1CB4C71400DBEF86 /* 013 Synchron_Profileedit_addprofilepic.png */; };
+		EE6ED4491CB4C71400DBEF86 /* 013 Synchron_Profileedit_email_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3BC1CB4C71400DBEF86 /* 013 Synchron_Profileedit_email_field.png */; };
+		EE6ED44A1CB4C71400DBEF86 /* 013 Synchron_Profileedit_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3BD1CB4C71400DBEF86 /* 013 Synchron_Profileedit_menu_icon.png */; };
+		EE6ED44B1CB4C71400DBEF86 /* 013 Synchron_Profileedit_mobile_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3BE1CB4C71400DBEF86 /* 013 Synchron_Profileedit_mobile_field.png */; };
+		EE6ED44C1CB4C71400DBEF86 /* 013 Synchron_Profileedit_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3BF1CB4C71400DBEF86 /* 013 Synchron_Profileedit_navbar.png */; };
+		EE6ED44D1CB4C71400DBEF86 /* 013 Synchron_Profileedit_newpassword_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C01CB4C71400DBEF86 /* 013 Synchron_Profileedit_newpassword_field.png */; };
+		EE6ED44E1CB4C71400DBEF86 /* 013 Synchron_Profileedit_password_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C11CB4C71400DBEF86 /* 013 Synchron_Profileedit_password_field.png */; };
+		EE6ED44F1CB4C71400DBEF86 /* 013 Synchron_Profileedit_personalinfo_textfield.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C21CB4C71400DBEF86 /* 013 Synchron_Profileedit_personalinfo_textfield.png */; };
+		EE6ED4501CB4C71400DBEF86 /* 013 Synchron_Profileedit_phone_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C31CB4C71400DBEF86 /* 013 Synchron_Profileedit_phone_field.png */; };
+		EE6ED4511CB4C71400DBEF86 /* 013 Synchron_Profileedit_reenterpassword_field.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C41CB4C71400DBEF86 /* 013 Synchron_Profileedit_reenterpassword_field.png */; };
+		EE6ED4521CB4C71400DBEF86 /* 013 Synchron_Profileedit_save_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C51CB4C71400DBEF86 /* 013 Synchron_Profileedit_save_icon.png */; };
+		EE6ED4531CB4C71400DBEF86 /* 013 Synchron_Profileedit_subtitle bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C61CB4C71400DBEF86 /* 013 Synchron_Profileedit_subtitle bar.png */; };
+		EE6ED4541CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_email icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C81CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_email icon.png */; };
+		EE6ED4551CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_menu_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3C91CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_menu_icon.png */; };
+		EE6ED4561CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3CA1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar.png */; };
+		EE6ED4571CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar_comment_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3CB1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar_comment_icon.png */; };
+		EE6ED4581CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_phone icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3CC1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_phone icon.png */; };
+		EE6ED4591CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_text filed.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3CD1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_text filed.png */; };
+		EE6ED45A1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3CF1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar.png */; };
+		EE6ED45B1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D01CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_backbtn.png */; };
+		EE6ED45C1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_homebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D11CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_homebtn.png */; };
+		EE6ED45D1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D21CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_bg.png */; };
+		EE6ED45E1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_blueline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D31CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_blueline.png */; };
+		EE6ED45F1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_movingdot.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D41CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_movingdot.png */; };
+		EE6ED4601CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D51CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_whiteline.png */; };
+		EE6ED4611CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_submit btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D61CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_submit btn.png */; };
+		EE6ED4621CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_subtitle bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D71CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_subtitle bar.png */; };
+		EE6ED4631CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3D91CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar.png */; };
+		EE6ED4641CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DA1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_backbtn.png */; };
+		EE6ED4651CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_homebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DB1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_homebtn.png */; };
+		EE6ED4661CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DC1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_bg.png */; };
+		EE6ED4671CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_blueline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DD1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_blueline.png */; };
+		EE6ED4681CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_movingdot.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DE1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_movingdot.png */; };
+		EE6ED4691CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3DF1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_whiteline.png */; };
+		EE6ED46A1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_submit btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3E01CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_submit btn.png */; };
+		EE6ED46B1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_subtitle bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED3E11CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_subtitle bar.png */; };
+		EE6ED46E1CB4FE9000DBEF86 /* UsermenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6ED46D1CB4FE9000DBEF86 /* UsermenuTableViewCell.m */; };
+		EE6ED4781CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_backbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED46F1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_backbtn.png */; };
+		EE6ED4791CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_homebtn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4701CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_homebtn.png */; };
+		EE6ED47A1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4711CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar.png */; };
+		EE6ED47B1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4721CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_bg.png */; };
+		EE6ED47C1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_blueline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4731CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_blueline.png */; };
+		EE6ED47D1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_movingdot.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4741CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_movingdot.png */; };
+		EE6ED47E1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_whiteline.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4751CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_whiteline.png */; };
+		EE6ED47F1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_submit btn.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4761CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_submit btn.png */; };
+		EE6ED4801CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_subtitle bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4771CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_subtitle bar.png */; };
+		EE6ED4841CBCFC4500DBEF86 /* iPhone4inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4831CBCFC4500DBEF86 /* iPhone4inch.storyboard */; };
+		EE6ED4881CBCFC8500DBEF86 /* iPhone5.5inch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE6ED4871CBCFC8500DBEF86 /* iPhone5.5inch.storyboard */; };
+		EE6ED48B1CBE438F00DBEF86 /* EventDAO.m in Sources */ = {isa = PBXBuildFile; fileRef = EE6ED48A1CBE438F00DBEF86 /* EventDAO.m */; };
+		EE73BDBB1CAE718200406D72 /* Advisors.m in Sources */ = {isa = PBXBuildFile; fileRef = EE73BDBA1CAE718200406D72 /* Advisors.m */; };
+		EE7B841E1CAB934D00DB9466 /* Rsvp.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7B841D1CAB934D00DB9466 /* Rsvp.m */; };
+		EE7B84211CAB997B00DB9466 /* QRCodeReader.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7B84201CAB997B00DB9466 /* QRCodeReader.m */; };
+		EE7B84231CABA5E400DB9466 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE7B84221CABA5E400DB9466 /* AVFoundation.framework */; };
+		EE7B84251CABAA4700DB9466 /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE7B84241CABAA4700DB9466 /* beep.mp3 */; };
+		EE7C43581CA92654008F64BA /* Events.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C43571CA92654008F64BA /* Events.m */; };
+		EE7C43621CA9427A008F64BA /* ActivityFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C43611CA9427A008F64BA /* ActivityFeed.m */; };
+		EE7C43691CA94991008F64BA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C43681CA94991008F64BA /* WebViewController.m */; };
+		EE7C436C1CA94FA1008F64BA /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE7C436B1CA94FA1008F64BA /* LocationViewController.m */; };
+		EE8173F51CAA6B7000207821 /* LocationDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8173F41CAA6B7000207821 /* LocationDetails.m */; };
+		EE8173F81CAA740100207821 /* AgendaView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8173F71CAA740100207821 /* AgendaView.m */; };
+		EE8173FB1CAA823600207821 /* FeedBack.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8173FA1CAA823600207821 /* FeedBack.m */; };
+		EE8173FE1CAA96C900207821 /* EventFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8173FD1CAA96C900207821 /* EventFeedback.m */; };
+		EE8174011CAA96E200207821 /* SpeakersFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8174001CAA96E200207821 /* SpeakersFeedback.m */; };
+		EE8EE02F1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_attending_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8EE02A1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_attending_icon.png */; };
+		EE8EE0301CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_deselected.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8EE02B1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_deselected.png */; };
+		EE8EE0311CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8EE02C1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_selected.png */; };
+		EE8EE0321CC8A8CF00ECDB18 /* 003 Synchron_UEvents_notattending_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8EE02D1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_notattending_icon.png */; };
+		EE8EE0331CC8A8CF00ECDB18 /* 003 Synchron_UEvents_tentitive_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EE8EE02E1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_tentitive_icon.png */; };
+		EE8EE0371CC8BDFC00ECDB18 /* profileViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE8EE0361CC8BDFC00ECDB18 /* profileViewViewController.m */; };
+		EEA94BE01CAD25EE00DA66D9 /* EditProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA94BDF1CAD25EE00DA66D9 /* EditProfileViewController.m */; };
+		EEA94BE31CAD365200DA66D9 /* SignUp.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA94BE21CAD365200DA66D9 /* SignUp.m */; };
+		EEABE23C1D30DB2200C67AEC /* AdvisorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEABE23B1D30DB2200C67AEC /* AdvisorCell.m */; };
+		EEABE23E1D30DD6E00C67AEC /* chevron15arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = EEABE23D1D30DD6E00C67AEC /* chevron15arrow.png */; };
+		EEAC1B2F1CC9FA86006B9558 /* 002 Synchron_Signin_checkbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAC1B2E1CC9FA85006B9558 /* 002 Synchron_Signin_checkbox.png */; };
+		EEAC1B311CCA022C006B9558 /* 002 Synchron_Signin_uncheckbox.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAC1B301CCA022C006B9558 /* 002 Synchron_Signin_uncheckbox.png */; };
+		EEAC1B7F1CCB5E4D006B9558 /* AdvisorCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAC1B7E1CCB5E4D006B9558 /* AdvisorCollection.m */; };
+		EEAC1B821CCB6005006B9558 /* AdCusCellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAC1B811CCB6005006B9558 /* AdCusCellCollectionViewCell.m */; };
+		EEAC1B851CCB7FC0006B9558 /* AdvisorDOA.m in Sources */ = {isa = PBXBuildFile; fileRef = EEAC1B841CCB7FC0006B9558 /* AdvisorDOA.m */; };
+		EEB0FD5E1CA2973A0047E4A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0FD5D1CA297390047E4A8 /* main.m */; };
+		EEB0FD611CA2973A0047E4A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0FD601CA2973A0047E4A8 /* AppDelegate.m */; };
+		EEB0FD6C1CA2973A0047E4A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB0FD6A1CA2973A0047E4A8 /* LaunchScreen.storyboard */; };
+		EEB0FD771CA2973A0047E4A8 /* SynchronTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0FD761CA2973A0047E4A8 /* SynchronTests.m */; };
+		EEB0FD821CA2973A0047E4A8 /* SynchronUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB0FD811CA2973A0047E4A8 /* SynchronUITests.m */; };
+		EEB329101CA3D5EA000F5DE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEB329061CA3D5EA000F5DE8 /* Main.storyboard */; };
+		EEB329111CA3D5EA000F5DE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEB329071CA3D5EA000F5DE8 /* Images.xcassets */; };
+		EEB329141CA3D5EA000F5DE8 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3290D1CA3D5EA000F5DE8 /* MainViewController.m */; };
+		EEB329151CA3D5EA000F5DE8 /* SidebarTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3290F1CA3D5EA000F5DE8 /* SidebarTableViewController.m */; };
+		EEB329181CA3D72F000F5DE8 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB329171CA3D72F000F5DE8 /* SWRevealViewController.m */; };
+		EEB3291A1CA3E7FC000F5DE8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB329191CA3E7FC000F5DE8 /* MapKit.framework */; };
+		EEB3291F1CA407AC000F5DE8 /* LoginPage.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB3291E1CA407AB000F5DE8 /* LoginPage.m */; };
+		EEB962FE1D3264AA00EE87A6 /* NSBubbleData.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB962F41D3264AA00EE87A6 /* NSBubbleData.m */; };
+		EEB962FF1D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB962F61D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.m */; };
+		EEB963001D3264AA00EE87A6 /* UIBubbleTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB962F81D3264AA00EE87A6 /* UIBubbleTableView.m */; };
+		EEB963011D3264AA00EE87A6 /* UIBubbleTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB962FA1D3264AA00EE87A6 /* UIBubbleTableViewCell.m */; };
+		EEB963021D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB962FD1D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.m */; };
+		EEB963101D3277F200EE87A6 /* BubbleChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9630E1D3277F200EE87A6 /* BubbleChatView.m */; };
+		EEB963111D3277F200EE87A6 /* BubbleChatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB9630F1D3277F200EE87A6 /* BubbleChatView.xib */; };
+		EEB963181D32BF9300EE87A6 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB963161D32BF9300EE87A6 /* TableViewController.m */; };
+		EEB963191D32BF9300EE87A6 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEB963171D32BF9300EE87A6 /* TableViewController.xib */; };
+		EEBDBFF81D223EFF00E840DE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDBFF61D223EFF00E840DE /* Bolts.framework */; };
+		EEBDBFF91D223EFF00E840DE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDBFF71D223EFF00E840DE /* Parse.framework */; };
+		EEBDBFFB1D223F8E00E840DE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDBFFA1D223F8E00E840DE /* AudioToolbox.framework */; };
+		EEBDBFFD1D223F9500E840DE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDBFFC1D223F9400E840DE /* CFNetwork.framework */; };
+		EEBDBFFF1D223F9E00E840DE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDBFFE1D223F9E00E840DE /* CoreGraphics.framework */; };
+		EEBDC0011D223FA400E840DE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC0001D223FA400E840DE /* CoreLocation.framework */; };
+		EEBDC0031D223FAB00E840DE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC0021D223FAB00E840DE /* QuartzCore.framework */; };
+		EEBDC0051D223FB200E840DE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC0041D223FB200E840DE /* Security.framework */; };
+		EEBDC0071D223FB800E840DE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC0061D223FB800E840DE /* StoreKit.framework */; };
+		EEBDC0091D223FBE00E840DE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC0081D223FBE00E840DE /* SystemConfiguration.framework */; };
+		EEBDC00B1D223FC600E840DE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC00A1D223FC600E840DE /* libz.tbd */; };
+		EEBDC00D1D223FD300E840DE /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EEBDC00C1D223FD300E840DE /* libsqlite3.tbd */; };
+		EEBDC01C1D22909700E840DE /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBDC01B1D22909700E840DE /* ActivityTableViewCell.m */; };
+		EEDB73551CBFCC8300F70433 /* meeting.png in Resources */ = {isa = PBXBuildFile; fileRef = EEDB73541CBFCC8300F70433 /* meeting.png */; };
+		EEDB73581CC4DBBC00F70433 /* ContentFeedback.m in Sources */ = {isa = PBXBuildFile; fileRef = EEDB73571CC4DBBC00F70433 /* ContentFeedback.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEB0FD731CA2973A0047E4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB0FD511CA297390047E4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB0FD581CA297390047E4A8;
+			remoteInfo = Synchron;
+		};
+		EEB0FD7E1CA2973A0047E4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEB0FD511CA297390047E4A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEB0FD581CA297390047E4A8;
+			remoteInfo = Synchron;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E6E5DCD45048E65FE97A92 /* libPods-SynchronUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SynchronUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06B4D189A3E5EFAD93750F79 /* Pods-Synchron.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synchron.release.xcconfig"; path = "Pods/Target Support Files/Pods-Synchron/Pods-Synchron.release.xcconfig"; sourceTree = "<group>"; };
+		1CA0C99C5EDFBC82884E3071 /* Pods-SynchronUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SynchronUITests/Pods-SynchronUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E60EDDAC0BE964CDF78663B /* Pods-Synchron.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Synchron.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Synchron/Pods-Synchron.debug.xcconfig"; sourceTree = "<group>"; };
+		977252BCCE1E1D15DB022357 /* Pods-SynchronTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SynchronTests/Pods-SynchronTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E8A92266E6ACDB5042EA0A4 /* libPods-SynchronTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SynchronTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43A7FA71F1AFBB183138D8C /* Pods-SynchronTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SynchronTests/Pods-SynchronTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E96C1737B2A72F73BA90AAC9 /* libPods-Synchron.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Synchron.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE015F591CDA12AC00DC349C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		EE0160D91CDB4CD300DC349C /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		EE0160DB1CDB4DA200DC349C /* callViewCon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = callViewCon.h; sourceTree = "<group>"; };
+		EE0160DC1CDB4DA200DC349C /* callViewCon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = callViewCon.m; sourceTree = "<group>"; };
+		EE0160DE1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_First Name icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_First Name icon.png"; sourceTree = "<group>"; };
+		EE0160DF1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Last Name icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_Last Name icon.png"; sourceTree = "<group>"; };
+		EE0160E01CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Ophone icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_Ophone icon.png"; sourceTree = "<group>"; };
+		EE0160E11CDB5A3400DC349C /* 014 Synchron_Advisorprofile_title icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_title icon.png"; sourceTree = "<group>"; };
+		EE04297A1CCE48C10052FEBC /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		EE04297C1CD0ABE80052FEBC /* 003 Synchron_-UEvents_list_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_-UEvents_list_selected.png"; sourceTree = "<group>"; };
+		EE04297E1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_TM_active icon.png"; sourceTree = "<group>"; };
+		EE04297F1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_TM_inactive icon.png"; sourceTree = "<group>"; };
+		EE0429821CD0C3450052FEBC /* narayana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = narayana.png; sourceTree = "<group>"; };
+		EE0429841CD0C4EB0052FEBC /* TeamCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeamCollection.h; sourceTree = "<group>"; };
+		EE0429851CD0C4EB0052FEBC /* TeamCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeamCollection.m; sourceTree = "<group>"; };
+		EE0429871CD0C5100052FEBC /* BusinessPartnersCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessPartnersCollection.h; sourceTree = "<group>"; };
+		EE0429881CD0C5100052FEBC /* BusinessPartnersCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessPartnersCollection.m; sourceTree = "<group>"; };
+		EE04298A1CD0DF6B0052FEBC /* MarkAttendance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarkAttendance.h; sourceTree = "<group>"; };
+		EE04298B1CD0DF6B0052FEBC /* MarkAttendance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarkAttendance.m; sourceTree = "<group>"; };
+		EE0ECC8C1CD21F4300B153C4 /* SpeakerTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakerTableCell.h; sourceTree = "<group>"; };
+		EE0ECC8D1CD21F4400B153C4 /* SpeakerTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakerTableCell.m; sourceTree = "<group>"; };
+		EE0ECC8F1CD38C1000B153C4 /* 014 Synchron_Advisorprofile_tintbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_tintbg.png"; sourceTree = "<group>"; };
+		EE0ECC911CD38D5000B153C4 /* 014 Synchron_Advisorprofile_text filed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_text filed.png"; sourceTree = "<group>"; };
+		EE0ECC931CD390D300B153C4 /* 014 Synchron_Advisorprofile_user icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_user icon.png"; sourceTree = "<group>"; };
+		EE0ECC951CD390DE00B153C4 /* 014 Synchron_Advisorprofile_location icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_location icon.png"; sourceTree = "<group>"; };
+		EE140F691CE49568005EA5C0 /* iPhone3.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone3.5inch.storyboard; sourceTree = "<group>"; };
+		EE647FC91CD766820090C49D /* 002 Synchron_Signin_signin_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_signin_btn.png"; sourceTree = "<group>"; };
+		EE6ED3441CB3E51900DBEF86 /* EventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTableViewCell.h; sourceTree = "<group>"; };
+		EE6ED3451CB3E51900DBEF86 /* EventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTableViewCell.m; sourceTree = "<group>"; };
+		EE6ED3491CB4C71400DBEF86 /* 001 Synchron_Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "001 Synchron_Splash.png"; sourceTree = "<group>"; };
+		EE6ED34B1CB4C71400DBEF86 /* 002 Synchron_Signin_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_checkbox.png"; sourceTree = "<group>"; };
+		EE6ED34C1CB4C71400DBEF86 /* 002 Synchron_Signin_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_navbar.png"; sourceTree = "<group>"; };
+		EE6ED34D1CB4C71400DBEF86 /* 002 Synchron_Signin_password_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_password_icon.png"; sourceTree = "<group>"; };
+		EE6ED34F1CB4C71400DBEF86 /* 002 Synchron_Signin_text_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_text_field.png"; sourceTree = "<group>"; };
+		EE6ED3501CB4C71400DBEF86 /* 002 Synchron_Signin_topimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_topimage.png"; sourceTree = "<group>"; };
+		EE6ED3511CB4C71400DBEF86 /* 002 Synchron_Signin_uncheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_uncheckbox.png"; sourceTree = "<group>"; };
+		EE6ED3521CB4C71400DBEF86 /* 002 Synchron_Signin_username_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_username_icon.png"; sourceTree = "<group>"; };
+		EE6ED3541CB4C71400DBEF86 /* 003 Synchron_UEvents_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_bg.png"; sourceTree = "<group>"; };
+		EE6ED3581CB4C71400DBEF86 /* 003 Synchron_UEvents_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3591CB4C71400DBEF86 /* 003 Synchron_UEvents_profile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_profile_icon.png"; sourceTree = "<group>"; };
+		EE6ED35A1CB4C71400DBEF86 /* 003 Synchron_UEvents_subtitlebar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_subtitlebar.png"; sourceTree = "<group>"; };
+		EE6ED35C1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_Advisors_active icon.png"; sourceTree = "<group>"; };
+		EE6ED35D1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_Advisors_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED35E1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_AFeed_active icon.png"; sourceTree = "<group>"; };
+		EE6ED35F1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_AFeed_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED3601CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_BPartners_active icon.png"; sourceTree = "<group>"; };
+		EE6ED3611CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_BPartners_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED3621CB4C71400DBEF86 /* 004 Synchron_Menu_Call icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_Call icon.png"; sourceTree = "<group>"; };
+		EE6ED3631CB4C71400DBEF86 /* 004 Synchron_Menu_divideline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_divideline.png"; sourceTree = "<group>"; };
+		EE6ED3641CB4C71400DBEF86 /* 004 Synchron_Menu_Events_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_Events_active icon.png"; sourceTree = "<group>"; };
+		EE6ED3651CB4C71400DBEF86 /* 004 Synchron_Menu_Events_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_Events_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED3661CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_listitem BG active.png"; sourceTree = "<group>"; };
+		EE6ED3671CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_listitem BG inactive.png"; sourceTree = "<group>"; };
+		EE6ED3681CB4C71400DBEF86 /* 004 Synchron_Menu_locationl icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_locationl icon.png"; sourceTree = "<group>"; };
+		EE6ED3691CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_MAttend_active icon.png"; sourceTree = "<group>"; };
+		EE6ED36A1CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_MAttend_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED36B1CB4C71400DBEF86 /* 004 Synchron_Menu_menu bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_menu bg.png"; sourceTree = "<group>"; };
+		EE6ED36C1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_profile_active icon.png"; sourceTree = "<group>"; };
+		EE6ED36D1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_profile_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED36E1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_active icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_signout_active icon.png"; sourceTree = "<group>"; };
+		EE6ED36F1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_inactive icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_signout_inactive icon.png"; sourceTree = "<group>"; };
+		EE6ED3701CB4C71400DBEF86 /* 004 Synchron_Menu_web icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_Menu_web icon.png"; sourceTree = "<group>"; };
+		EE6ED3711CB4C71400DBEF86 /* 004 Synchron_profile pic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "004 Synchron_profile pic.png"; sourceTree = "<group>"; };
+		EE6ED3731CB4C71400DBEF86 /* 005 Synchron_Eventdetails_agendapoint mark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_agendapoint mark.png"; sourceTree = "<group>"; };
+		EE6ED3741CB4C71400DBEF86 /* 005 Synchron_Eventdetails_attendance bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_attendance bg.png"; sourceTree = "<group>"; };
+		EE6ED3751CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3761CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED3771CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_comment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_navbar_comment_icon.png"; sourceTree = "<group>"; };
+		EE6ED3781CB4C71400DBEF86 /* 005 Synchron_Eventdetails_RSVP_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_RSVP_btn.png"; sourceTree = "<group>"; };
+		EE6ED3791CB4C71400DBEF86 /* 005 Synchron_Eventdetails_submit_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_submit_btn.png"; sourceTree = "<group>"; };
+		EE6ED37A1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Agenda active.png"; sourceTree = "<group>"; };
+		EE6ED37B1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Agenda inactive.png"; sourceTree = "<group>"; };
+		EE6ED37C1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Attendance active.png"; sourceTree = "<group>"; };
+		EE6ED37D1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Attendance inactive.png"; sourceTree = "<group>"; };
+		EE6ED37E1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_location active.png"; sourceTree = "<group>"; };
+		EE6ED37F1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_location inactive.png"; sourceTree = "<group>"; };
+		EE6ED3801CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Speaker active.png"; sourceTree = "<group>"; };
+		EE6ED3811CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tab_Speaker inactive.png"; sourceTree = "<group>"; };
+		EE6ED3821CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tabbottomline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "005 Synchron_Eventdetails_tabbottomline.png"; sourceTree = "<group>"; };
+		EE6ED3841CB4C71400DBEF86 /* 006 Synchron_QRCode_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006 Synchron_QRCode_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3851CB4C71400DBEF86 /* 006 Synchron_QRCode_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006 Synchron_QRCode_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3861CB4C71400DBEF86 /* 006 Synchron_QRCode_subtilte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006 Synchron_QRCode_subtilte.png"; sourceTree = "<group>"; };
+		EE6ED3871CB4C71400DBEF86 /* 006 Synchron_QRCode_topimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "006 Synchron_QRCode_topimage.png"; sourceTree = "<group>"; };
+		EE6ED3891CB4C71400DBEF86 /* 007 Synchron_Activityfeed_addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_addimage.png"; sourceTree = "<group>"; };
+		EE6ED38A1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_IMessage field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_IMessage field.png"; sourceTree = "<group>"; };
+		EE6ED38B1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_navbar.png"; sourceTree = "<group>"; };
+		EE6ED38C1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED38D1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_galleryicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_navbar_galleryicon.png"; sourceTree = "<group>"; };
+		EE6ED38E1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_voicemessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "007 Synchron_Activityfeed_voicemessage.png"; sourceTree = "<group>"; };
+		EE6ED3901CB4C71400DBEF86 /* 008 Synchron_Eventchat__navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat__navbar.png"; sourceTree = "<group>"; };
+		EE6ED3911CB4C71400DBEF86 /* 008 Synchron_Eventchat_addimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_addimage.png"; sourceTree = "<group>"; };
+		EE6ED3921CB4C71400DBEF86 /* 008 Synchron_Eventchat_cancel_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_cancel_btn.png"; sourceTree = "<group>"; };
+		EE6ED3931CB4C71400DBEF86 /* 008 Synchron_Eventchat_choosephoto_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_choosephoto_btn.png"; sourceTree = "<group>"; };
+		EE6ED3941CB4C71400DBEF86 /* 008 Synchron_Eventchat_IMessage field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_IMessage field.png"; sourceTree = "<group>"; };
+		EE6ED3951CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED3961CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_galleryicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_navbar_galleryicon.png"; sourceTree = "<group>"; };
+		EE6ED3971CB4C71400DBEF86 /* 008 Synchron_Eventchat_popwindowbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_popwindowbg.png"; sourceTree = "<group>"; };
+		EE6ED3981CB4C71400DBEF86 /* 008 Synchron_Eventchat_takephoto_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_takephoto_btn.png"; sourceTree = "<group>"; };
+		EE6ED3991CB4C71400DBEF86 /* 008 Synchron_Eventchat_voicemessage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "008 Synchron_Eventchat_voicemessage.png"; sourceTree = "<group>"; };
+		EE6ED39B1CB4C71400DBEF86 /* 009 Synchron_Gallery__navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009 Synchron_Gallery__navbar.png"; sourceTree = "<group>"; };
+		EE6ED39C1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009 Synchron_Gallery_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED39D1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_homebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009 Synchron_Gallery_navbar_homebtn.png"; sourceTree = "<group>"; };
+		EE6ED39E1CB4C71400DBEF86 /* 009 Synchron_Gallery_thumbwindowframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "009 Synchron_Gallery_thumbwindowframe.png"; sourceTree = "<group>"; };
+		EE6ED3A01CB4C71400DBEF86 /* 010 Synchron_GPPreview_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010 Synchron_GPPreview_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3A11CB4C71400DBEF86 /* 010 Synchron_GPPreview_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010 Synchron_GPPreview_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3A21CB4C71400DBEF86 /* 010 Synchron_GPPreview_shareicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010 Synchron_GPPreview_shareicon.png"; sourceTree = "<group>"; };
+		EE6ED3A31CB4C71400DBEF86 /* 010 Synchron_GPPreview_subtitlebarbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "010 Synchron_GPPreview_subtitlebarbg.png"; sourceTree = "<group>"; };
+		EE6ED3A51CB4C71400DBEF86 /* 011 Synchron_Teammembers__navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers__navbar.png"; sourceTree = "<group>"; };
+		EE6ED3A61CB4C71400DBEF86 /* 011 Synchron_Teammembers_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3A71CB4C71400DBEF86 /* 011 Synchron_Teammembers_navbar_homebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_navbar_homebtn.png"; sourceTree = "<group>"; };
+		EE6ED3A81CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_bottomline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_tab_bottomline.png"; sourceTree = "<group>"; };
+		EE6ED3A91CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_tab_PT_active.png"; sourceTree = "<group>"; };
+		EE6ED3AA1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_tab_PT_inactive.png"; sourceTree = "<group>"; };
+		EE6ED3AB1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_active.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_tab_ST_active.png"; sourceTree = "<group>"; };
+		EE6ED3AC1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_inactive.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_tab_ST_inactive.png"; sourceTree = "<group>"; };
+		EE6ED3AD1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbframe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_thumbframe.png"; sourceTree = "<group>"; };
+		EE6ED3AE1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbinfoicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "011 Synchron_Teammembers_thumbinfoicon.png"; sourceTree = "<group>"; };
+		EE6ED3B01CB4C71400DBEF86 /* 012 Synchron_Profile__navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile__navbar.png"; sourceTree = "<group>"; };
+		EE6ED3B11CB4C71400DBEF86 /* 012 Synchron_Profile_editprofile_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_editprofile_icon.png"; sourceTree = "<group>"; };
+		EE6ED3B21CB4C71400DBEF86 /* 012 Synchron_Profile_email_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_email_field.png"; sourceTree = "<group>"; };
+		EE6ED3B31CB4C71400DBEF86 /* 012 Synchron_Profile_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3B41CB4C71400DBEF86 /* 012 Synchron_Profile_mobile_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_mobile_field.png"; sourceTree = "<group>"; };
+		EE6ED3B51CB4C71400DBEF86 /* 012 Synchron_Profile_password_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_password_field.png"; sourceTree = "<group>"; };
+		EE6ED3B61CB4C71400DBEF86 /* 012 Synchron_Profile_phone_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_phone_field.png"; sourceTree = "<group>"; };
+		EE6ED3B71CB4C71400DBEF86 /* 012 Synchron_Profile_pic bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_pic bg.png"; sourceTree = "<group>"; };
+		EE6ED3B81CB4C71400DBEF86 /* 012 Synchron_Profile_profilepicgrame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_profilepicgrame.png"; sourceTree = "<group>"; };
+		EE6ED3B91CB4C71400DBEF86 /* 012 Synchron_Profile_subtitle bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "012 Synchron_Profile_subtitle bar.png"; sourceTree = "<group>"; };
+		EE6ED3BB1CB4C71400DBEF86 /* 013 Synchron_Profileedit_addprofilepic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_addprofilepic.png"; sourceTree = "<group>"; };
+		EE6ED3BC1CB4C71400DBEF86 /* 013 Synchron_Profileedit_email_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_email_field.png"; sourceTree = "<group>"; };
+		EE6ED3BD1CB4C71400DBEF86 /* 013 Synchron_Profileedit_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3BE1CB4C71400DBEF86 /* 013 Synchron_Profileedit_mobile_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_mobile_field.png"; sourceTree = "<group>"; };
+		EE6ED3BF1CB4C71400DBEF86 /* 013 Synchron_Profileedit_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3C01CB4C71400DBEF86 /* 013 Synchron_Profileedit_newpassword_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_newpassword_field.png"; sourceTree = "<group>"; };
+		EE6ED3C11CB4C71400DBEF86 /* 013 Synchron_Profileedit_password_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_password_field.png"; sourceTree = "<group>"; };
+		EE6ED3C21CB4C71400DBEF86 /* 013 Synchron_Profileedit_personalinfo_textfield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_personalinfo_textfield.png"; sourceTree = "<group>"; };
+		EE6ED3C31CB4C71400DBEF86 /* 013 Synchron_Profileedit_phone_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_phone_field.png"; sourceTree = "<group>"; };
+		EE6ED3C41CB4C71400DBEF86 /* 013 Synchron_Profileedit_reenterpassword_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_reenterpassword_field.png"; sourceTree = "<group>"; };
+		EE6ED3C51CB4C71400DBEF86 /* 013 Synchron_Profileedit_save_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_save_icon.png"; sourceTree = "<group>"; };
+		EE6ED3C61CB4C71400DBEF86 /* 013 Synchron_Profileedit_subtitle bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "013 Synchron_Profileedit_subtitle bar.png"; sourceTree = "<group>"; };
+		EE6ED3C81CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_email icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_email icon.png"; sourceTree = "<group>"; };
+		EE6ED3C91CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_menu_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_menu_icon.png"; sourceTree = "<group>"; };
+		EE6ED3CA1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3CB1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar_comment_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_navbar_comment_icon.png"; sourceTree = "<group>"; };
+		EE6ED3CC1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_phone icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_phone icon.png"; sourceTree = "<group>"; };
+		EE6ED3CD1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_text filed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "014 Synchron_Advisorprofile_text filed.png"; sourceTree = "<group>"; };
+		EE6ED3CF1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3D01CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED3D11CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_homebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_navbar_homebtn.png"; sourceTree = "<group>"; };
+		EE6ED3D21CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_scale_bg.png"; sourceTree = "<group>"; };
+		EE6ED3D31CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_blueline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_scale_blueline.png"; sourceTree = "<group>"; };
+		EE6ED3D41CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_movingdot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_scale_movingdot.png"; sourceTree = "<group>"; };
+		EE6ED3D51CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_scale_whiteline.png"; sourceTree = "<group>"; };
+		EE6ED3D61CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_submit btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_submit btn.png"; sourceTree = "<group>"; };
+		EE6ED3D71CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_subtitle bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "015 Synchron_Eventfeedback_subtitle bar.png"; sourceTree = "<group>"; };
+		EE6ED3D91CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_navbar.png"; sourceTree = "<group>"; };
+		EE6ED3DA1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED3DB1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_homebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_navbar_homebtn.png"; sourceTree = "<group>"; };
+		EE6ED3DC1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_scale_bg.png"; sourceTree = "<group>"; };
+		EE6ED3DD1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_blueline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_scale_blueline.png"; sourceTree = "<group>"; };
+		EE6ED3DE1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_movingdot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_scale_movingdot.png"; sourceTree = "<group>"; };
+		EE6ED3DF1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_scale_whiteline.png"; sourceTree = "<group>"; };
+		EE6ED3E01CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_submit btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_submit btn.png"; sourceTree = "<group>"; };
+		EE6ED3E11CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_subtitle bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "016 Synchron_SpeakersFeedback_subtitle bar.png"; sourceTree = "<group>"; };
+		EE6ED46C1CB4FE9000DBEF86 /* UsermenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsermenuTableViewCell.h; sourceTree = "<group>"; };
+		EE6ED46D1CB4FE9000DBEF86 /* UsermenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsermenuTableViewCell.m; sourceTree = "<group>"; };
+		EE6ED46F1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_backbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_navbar_backbtn.png"; sourceTree = "<group>"; };
+		EE6ED4701CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_homebtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_navbar_homebtn.png"; sourceTree = "<group>"; };
+		EE6ED4711CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_navbar.png"; sourceTree = "<group>"; };
+		EE6ED4721CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_scale_bg.png"; sourceTree = "<group>"; };
+		EE6ED4731CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_blueline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_scale_blueline.png"; sourceTree = "<group>"; };
+		EE6ED4741CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_movingdot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_scale_movingdot.png"; sourceTree = "<group>"; };
+		EE6ED4751CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_whiteline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_scale_whiteline.png"; sourceTree = "<group>"; };
+		EE6ED4761CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_submit btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_submit btn.png"; sourceTree = "<group>"; };
+		EE6ED4771CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_subtitle bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "017 Synchron_Eventfeedback_subtitle bar.png"; sourceTree = "<group>"; };
+		EE6ED4831CBCFC4500DBEF86 /* iPhone4inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone4inch.storyboard; sourceTree = "<group>"; };
+		EE6ED4871CBCFC8500DBEF86 /* iPhone5.5inch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone5.5inch.storyboard; sourceTree = "<group>"; };
+		EE6ED4891CBE438F00DBEF86 /* EventDAO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventDAO.h; sourceTree = "<group>"; };
+		EE6ED48A1CBE438F00DBEF86 /* EventDAO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDAO.m; sourceTree = "<group>"; };
+		EE73BDB91CAE718200406D72 /* Advisors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advisors.h; sourceTree = "<group>"; };
+		EE73BDBA1CAE718200406D72 /* Advisors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advisors.m; sourceTree = "<group>"; };
+		EE7B841C1CAB934D00DB9466 /* Rsvp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rsvp.h; sourceTree = "<group>"; };
+		EE7B841D1CAB934D00DB9466 /* Rsvp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rsvp.m; sourceTree = "<group>"; };
+		EE7B841F1CAB997B00DB9466 /* QRCodeReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeReader.h; sourceTree = "<group>"; };
+		EE7B84201CAB997B00DB9466 /* QRCodeReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeReader.m; sourceTree = "<group>"; };
+		EE7B84221CABA5E400DB9466 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE7B84241CABAA4700DB9466 /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		EE7C43561CA92654008F64BA /* Events.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Events.h; sourceTree = "<group>"; };
+		EE7C43571CA92654008F64BA /* Events.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Events.m; sourceTree = "<group>"; };
+		EE7C43601CA9427A008F64BA /* ActivityFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityFeed.h; sourceTree = "<group>"; };
+		EE7C43611CA9427A008F64BA /* ActivityFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityFeed.m; sourceTree = "<group>"; };
+		EE7C43671CA94991008F64BA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		EE7C43681CA94991008F64BA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		EE7C436A1CA94FA1008F64BA /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		EE7C436B1CA94FA1008F64BA /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		EE8173F31CAA6B7000207821 /* LocationDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetails.h; sourceTree = "<group>"; };
+		EE8173F41CAA6B7000207821 /* LocationDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetails.m; sourceTree = "<group>"; };
+		EE8173F61CAA740100207821 /* AgendaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AgendaView.h; sourceTree = "<group>"; };
+		EE8173F71CAA740100207821 /* AgendaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AgendaView.m; sourceTree = "<group>"; };
+		EE8173F91CAA823600207821 /* FeedBack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedBack.h; sourceTree = "<group>"; };
+		EE8173FA1CAA823600207821 /* FeedBack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedBack.m; sourceTree = "<group>"; };
+		EE8173FC1CAA96C900207821 /* EventFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventFeedback.h; sourceTree = "<group>"; };
+		EE8173FD1CAA96C900207821 /* EventFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventFeedback.m; sourceTree = "<group>"; };
+		EE8173FF1CAA96E200207821 /* SpeakersFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeakersFeedback.h; sourceTree = "<group>"; };
+		EE8174001CAA96E200207821 /* SpeakersFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeakersFeedback.m; sourceTree = "<group>"; };
+		EE8EE02A1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_attending_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_attending_icon.png"; sourceTree = "<group>"; };
+		EE8EE02B1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_deselected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_list_deselected.png"; sourceTree = "<group>"; };
+		EE8EE02C1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_list_selected.png"; sourceTree = "<group>"; };
+		EE8EE02D1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_notattending_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_notattending_icon.png"; sourceTree = "<group>"; };
+		EE8EE02E1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_tentitive_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "003 Synchron_UEvents_tentitive_icon.png"; sourceTree = "<group>"; };
+		EE8EE0351CC8BDFC00ECDB18 /* profileViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewViewController.h; sourceTree = "<group>"; };
+		EE8EE0361CC8BDFC00ECDB18 /* profileViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewViewController.m; sourceTree = "<group>"; };
+		EEA94BDE1CAD25EE00DA66D9 /* EditProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProfileViewController.h; sourceTree = "<group>"; };
+		EEA94BDF1CAD25EE00DA66D9 /* EditProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileViewController.m; sourceTree = "<group>"; };
+		EEA94BE11CAD365200DA66D9 /* SignUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignUp.h; sourceTree = "<group>"; };
+		EEA94BE21CAD365200DA66D9 /* SignUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignUp.m; sourceTree = "<group>"; };
+		EEABE23A1D30DB2200C67AEC /* AdvisorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvisorCell.h; sourceTree = "<group>"; };
+		EEABE23B1D30DB2200C67AEC /* AdvisorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvisorCell.m; sourceTree = "<group>"; };
+		EEABE23D1D30DD6E00C67AEC /* chevron15arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chevron15arrow.png; sourceTree = "<group>"; };
+		EEAC1B2E1CC9FA85006B9558 /* 002 Synchron_Signin_checkbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_checkbox.png"; sourceTree = "<group>"; };
+		EEAC1B301CCA022C006B9558 /* 002 Synchron_Signin_uncheckbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "002 Synchron_Signin_uncheckbox.png"; sourceTree = "<group>"; };
+		EEAC1B7D1CCB5E4D006B9558 /* AdvisorCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvisorCollection.h; sourceTree = "<group>"; };
+		EEAC1B7E1CCB5E4D006B9558 /* AdvisorCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvisorCollection.m; sourceTree = "<group>"; };
+		EEAC1B801CCB6005006B9558 /* AdCusCellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdCusCellCollectionViewCell.h; sourceTree = "<group>"; };
+		EEAC1B811CCB6005006B9558 /* AdCusCellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdCusCellCollectionViewCell.m; sourceTree = "<group>"; };
+		EEAC1B831CCB7FC0006B9558 /* AdvisorDOA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvisorDOA.h; sourceTree = "<group>"; };
+		EEAC1B841CCB7FC0006B9558 /* AdvisorDOA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvisorDOA.m; sourceTree = "<group>"; };
+		EEB0FD591CA297390047E4A8 /* Synchron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Synchron.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB0FD5D1CA297390047E4A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEB0FD5F1CA2973A0047E4A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEB0FD601CA2973A0047E4A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEB0FD6B1CA2973A0047E4A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEB0FD6D1CA2973A0047E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB0FD721CA2973A0047E4A8 /* SynchronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynchronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB0FD761CA2973A0047E4A8 /* SynchronTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronTests.m; sourceTree = "<group>"; };
+		EEB0FD781CA2973A0047E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB0FD7D1CA2973A0047E4A8 /* SynchronUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SynchronUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB0FD811CA2973A0047E4A8 /* SynchronUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronUITests.m; sourceTree = "<group>"; };
+		EEB0FD831CA2973A0047E4A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEB329061CA3D5EA000F5DE8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Synchron/Main.storyboard; sourceTree = "<group>"; };
+		EEB329071CA3D5EA000F5DE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EEB3290C1CA3D5EA000F5DE8 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EEB3290D1CA3D5EA000F5DE8 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EEB3290E1CA3D5EA000F5DE8 /* SidebarTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarTableViewController.h; sourceTree = "<group>"; };
+		EEB3290F1CA3D5EA000F5DE8 /* SidebarTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarTableViewController.m; sourceTree = "<group>"; };
+		EEB329161CA3D72F000F5DE8 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		EEB329171CA3D72F000F5DE8 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		EEB329191CA3E7FC000F5DE8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EEB3291D1CA407AB000F5DE8 /* LoginPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginPage.h; path = ../LoginPage.h; sourceTree = "<group>"; };
+		EEB3291E1CA407AB000F5DE8 /* LoginPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginPage.m; path = ../LoginPage.m; sourceTree = "<group>"; };
+		EEB962F31D3264AA00EE87A6 /* NSBubbleData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBubbleData.h; sourceTree = "<group>"; };
+		EEB962F41D3264AA00EE87A6 /* NSBubbleData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSBubbleData.m; sourceTree = "<group>"; };
+		EEB962F51D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleHeaderTableViewCell.h; sourceTree = "<group>"; };
+		EEB962F61D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleHeaderTableViewCell.m; sourceTree = "<group>"; };
+		EEB962F71D3264AA00EE87A6 /* UIBubbleTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableView.h; sourceTree = "<group>"; };
+		EEB962F81D3264AA00EE87A6 /* UIBubbleTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableView.m; sourceTree = "<group>"; };
+		EEB962F91D3264AA00EE87A6 /* UIBubbleTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewCell.h; sourceTree = "<group>"; };
+		EEB962FA1D3264AA00EE87A6 /* UIBubbleTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTableViewCell.m; sourceTree = "<group>"; };
+		EEB962FB1D3264AA00EE87A6 /* UIBubbleTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTableViewDataSource.h; sourceTree = "<group>"; };
+		EEB962FC1D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIBubbleTypingTableViewCell.h; sourceTree = "<group>"; };
+		EEB962FD1D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIBubbleTypingTableViewCell.m; sourceTree = "<group>"; };
+		EEB963041D326AB900EE87A6 /* UIBubbleTableViewExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBubbleTableViewExample-Prefix.pch"; sourceTree = "<group>"; };
+		EEB9630D1D3277F200EE87A6 /* BubbleChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleChatView.h; sourceTree = "<group>"; };
+		EEB9630E1D3277F200EE87A6 /* BubbleChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleChatView.m; sourceTree = "<group>"; };
+		EEB9630F1D3277F200EE87A6 /* BubbleChatView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BubbleChatView.xib; sourceTree = "<group>"; };
+		EEB963151D32BF9300EE87A6 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		EEB963161D32BF9300EE87A6 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		EEB963171D32BF9300EE87A6 /* TableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
+		EEBDBFF61D223EFF00E840DE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		EEBDBFF71D223EFF00E840DE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EEBDBFFA1D223F8E00E840DE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EEBDBFFC1D223F9400E840DE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EEBDBFFE1D223F9E00E840DE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EEBDC0001D223FA400E840DE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EEBDC0021D223FAB00E840DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EEBDC0041D223FB200E840DE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EEBDC0061D223FB800E840DE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EEBDC0081D223FBE00E840DE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EEBDC00A1D223FC600E840DE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EEBDC00C1D223FD300E840DE /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		EEBDC01A1D22909700E840DE /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
+		EEBDC01B1D22909700E840DE /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
+		EEDB73541CBFCC8300F70433 /* meeting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meeting.png; sourceTree = "<group>"; };
+		EEDB73561CC4DBBC00F70433 /* ContentFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentFeedback.h; sourceTree = "<group>"; };
+		EEDB73571CC4DBBC00F70433 /* ContentFeedback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentFeedback.m; sourceTree = "<group>"; };
+		FC0A458B76E58B7775CE60DA /* Pods-SynchronUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SynchronUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SynchronUITests/Pods-SynchronUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEB0FD561CA297390047E4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBDC00D1D223FD300E840DE /* libsqlite3.tbd in Frameworks */,
+				EEBDC00B1D223FC600E840DE /* libz.tbd in Frameworks */,
+				EEBDC0091D223FBE00E840DE /* SystemConfiguration.framework in Frameworks */,
+				EEBDC0071D223FB800E840DE /* StoreKit.framework in Frameworks */,
+				EEBDC0051D223FB200E840DE /* Security.framework in Frameworks */,
+				EEBDC0031D223FAB00E840DE /* QuartzCore.framework in Frameworks */,
+				EEBDC0011D223FA400E840DE /* CoreLocation.framework in Frameworks */,
+				EEBDBFFF1D223F9E00E840DE /* CoreGraphics.framework in Frameworks */,
+				EEBDBFFD1D223F9500E840DE /* CFNetwork.framework in Frameworks */,
+				EEBDBFFB1D223F8E00E840DE /* AudioToolbox.framework in Frameworks */,
+				EEBDBFF81D223EFF00E840DE /* Bolts.framework in Frameworks */,
+				EE015F5A1CDA12AD00DC349C /* AssetsLibrary.framework in Frameworks */,
+				EE7B84231CABA5E400DB9466 /* AVFoundation.framework in Frameworks */,
+				EEB3291A1CA3E7FC000F5DE8 /* MapKit.framework in Frameworks */,
+				EEBDBFF91D223EFF00E840DE /* Parse.framework in Frameworks */,
+				2ECA49A1C0506BABD750BBC5 /* libPods-Synchron.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD6F1CA2973A0047E4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6922D4AC018D66372880B8 /* libPods-SynchronTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD7A1CA2973A0047E4A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2E73CE483C0197352ECF4C /* libPods-SynchronUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1D76DF7C03A34BC28258E75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E60EDDAC0BE964CDF78663B /* Pods-Synchron.debug.xcconfig */,
+				06B4D189A3E5EFAD93750F79 /* Pods-Synchron.release.xcconfig */,
+				D43A7FA71F1AFBB183138D8C /* Pods-SynchronTests.debug.xcconfig */,
+				977252BCCE1E1D15DB022357 /* Pods-SynchronTests.release.xcconfig */,
+				1CA0C99C5EDFBC82884E3071 /* Pods-SynchronUITests.debug.xcconfig */,
+				FC0A458B76E58B7775CE60DA /* Pods-SynchronUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE6ED3471CB4C71400DBEF86 /* Synchron UI Screen Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE647FC91CD766820090C49D /* 002 Synchron_Signin_signin_btn.png */,
+				EE6ED46F1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_backbtn.png */,
+				EE6ED4701CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_homebtn.png */,
+				EE6ED4711CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar.png */,
+				EE6ED4721CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_bg.png */,
+				EE6ED4731CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_blueline.png */,
+				EE6ED4741CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_movingdot.png */,
+				EE6ED4751CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_whiteline.png */,
+				EE6ED4761CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_submit btn.png */,
+				EE6ED4771CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_subtitle bar.png */,
+				EE6ED3481CB4C71400DBEF86 /* 001 Synchron Splash Elements */,
+				EE6ED34A1CB4C71400DBEF86 /* 002 Synchron Sign in Elements */,
+				EE6ED3531CB4C71400DBEF86 /* 003 Synchron UEvents Elements */,
+				EE6ED35B1CB4C71400DBEF86 /* 004 Synchron Menu Elements */,
+				EE6ED3721CB4C71400DBEF86 /* 005 Synchron EventDetails Elements */,
+				EE6ED3831CB4C71400DBEF86 /* 006 Synchron QRCode Elements */,
+				EE6ED3881CB4C71400DBEF86 /* 007 Synchron ActivityFeed Elements */,
+				EE6ED38F1CB4C71400DBEF86 /* 008 Synchron Eventchat Elements */,
+				EE6ED39A1CB4C71400DBEF86 /* 009 Synchron Gallery Elements */,
+				EE6ED39F1CB4C71400DBEF86 /* 010 Synchron GPPreview Elements */,
+				EE6ED3A41CB4C71400DBEF86 /* 011 Synchron Teammembers Elements */,
+				EE6ED3AF1CB4C71400DBEF86 /* 012 Synchron Profile Elements */,
+				EE6ED3BA1CB4C71400DBEF86 /* 013 Synchron Profile Edit Elements */,
+				EE6ED3C71CB4C71400DBEF86 /* 014 Synchron Advisor Profile Elements */,
+				EE6ED3CE1CB4C71400DBEF86 /* 015 Synchron Eventfeedback Elements */,
+				EE6ED3D81CB4C71400DBEF86 /* 016 Synchron SpeakersFeedback Elements */,
+			);
+			path = "Synchron UI Screen Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3481CB4C71400DBEF86 /* 001 Synchron Splash Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3491CB4C71400DBEF86 /* 001 Synchron_Splash.png */,
+			);
+			path = "001 Synchron Splash Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED34A1CB4C71400DBEF86 /* 002 Synchron Sign in Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED34B1CB4C71400DBEF86 /* 002 Synchron_Signin_checkbox.png */,
+				EE6ED34C1CB4C71400DBEF86 /* 002 Synchron_Signin_navbar.png */,
+				EE6ED34D1CB4C71400DBEF86 /* 002 Synchron_Signin_password_icon.png */,
+				EE6ED34F1CB4C71400DBEF86 /* 002 Synchron_Signin_text_field.png */,
+				EE6ED3501CB4C71400DBEF86 /* 002 Synchron_Signin_topimage.png */,
+				EE6ED3511CB4C71400DBEF86 /* 002 Synchron_Signin_uncheckbox.png */,
+				EE6ED3521CB4C71400DBEF86 /* 002 Synchron_Signin_username_icon.png */,
+			);
+			path = "002 Synchron Sign in Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3531CB4C71400DBEF86 /* 003 Synchron UEvents Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3541CB4C71400DBEF86 /* 003 Synchron_UEvents_bg.png */,
+				EE6ED3581CB4C71400DBEF86 /* 003 Synchron_UEvents_navbar.png */,
+				EE6ED3591CB4C71400DBEF86 /* 003 Synchron_UEvents_profile_icon.png */,
+				EE6ED35A1CB4C71400DBEF86 /* 003 Synchron_UEvents_subtitlebar.png */,
+			);
+			path = "003 Synchron UEvents Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED35B1CB4C71400DBEF86 /* 004 Synchron Menu Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED35C1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_active icon.png */,
+				EE6ED35D1CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_inactive icon.png */,
+				EE6ED35E1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_active icon.png */,
+				EE6ED35F1CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_inactive icon.png */,
+				EE6ED3601CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_active icon.png */,
+				EE6ED3611CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_inactive icon.png */,
+				EE6ED3621CB4C71400DBEF86 /* 004 Synchron_Menu_Call icon.png */,
+				EE6ED3631CB4C71400DBEF86 /* 004 Synchron_Menu_divideline.png */,
+				EE6ED3641CB4C71400DBEF86 /* 004 Synchron_Menu_Events_active icon.png */,
+				EE6ED3651CB4C71400DBEF86 /* 004 Synchron_Menu_Events_inactive icon.png */,
+				EE6ED3661CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG active.png */,
+				EE6ED3671CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG inactive.png */,
+				EE6ED3681CB4C71400DBEF86 /* 004 Synchron_Menu_locationl icon.png */,
+				EE6ED3691CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_active icon.png */,
+				EE6ED36A1CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_inactive icon.png */,
+				EE6ED36B1CB4C71400DBEF86 /* 004 Synchron_Menu_menu bg.png */,
+				EE6ED36C1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_active icon.png */,
+				EE6ED36D1CB4C71400DBEF86 /* 004 Synchron_Menu_profile_inactive icon.png */,
+				EE6ED36E1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_active icon.png */,
+				EE6ED36F1CB4C71400DBEF86 /* 004 Synchron_Menu_signout_inactive icon.png */,
+				EE6ED3701CB4C71400DBEF86 /* 004 Synchron_Menu_web icon.png */,
+				EE6ED3711CB4C71400DBEF86 /* 004 Synchron_profile pic.png */,
+			);
+			path = "004 Synchron Menu Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3721CB4C71400DBEF86 /* 005 Synchron EventDetails Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3731CB4C71400DBEF86 /* 005 Synchron_Eventdetails_agendapoint mark.png */,
+				EE6ED3741CB4C71400DBEF86 /* 005 Synchron_Eventdetails_attendance bg.png */,
+				EE6ED3751CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar.png */,
+				EE6ED3761CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_backbtn.png */,
+				EE6ED3771CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_comment_icon.png */,
+				EE6ED3781CB4C71400DBEF86 /* 005 Synchron_Eventdetails_RSVP_btn.png */,
+				EE6ED3791CB4C71400DBEF86 /* 005 Synchron_Eventdetails_submit_btn.png */,
+				EE6ED37A1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda active.png */,
+				EE6ED37B1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda inactive.png */,
+				EE6ED37C1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance active.png */,
+				EE6ED37D1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance inactive.png */,
+				EE6ED37E1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location active.png */,
+				EE6ED37F1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location inactive.png */,
+				EE6ED3801CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker active.png */,
+				EE6ED3811CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker inactive.png */,
+				EE6ED3821CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tabbottomline.png */,
+			);
+			path = "005 Synchron EventDetails Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3831CB4C71400DBEF86 /* 006 Synchron QRCode Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3841CB4C71400DBEF86 /* 006 Synchron_QRCode_menu_icon.png */,
+				EE6ED3851CB4C71400DBEF86 /* 006 Synchron_QRCode_navbar.png */,
+				EE6ED3861CB4C71400DBEF86 /* 006 Synchron_QRCode_subtilte.png */,
+				EE6ED3871CB4C71400DBEF86 /* 006 Synchron_QRCode_topimage.png */,
+			);
+			path = "006 Synchron QRCode Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3881CB4C71400DBEF86 /* 007 Synchron ActivityFeed Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3891CB4C71400DBEF86 /* 007 Synchron_Activityfeed_addimage.png */,
+				EE6ED38A1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_IMessage field.png */,
+				EE6ED38B1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar.png */,
+				EE6ED38C1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_backbtn.png */,
+				EE6ED38D1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_galleryicon.png */,
+				EE6ED38E1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_voicemessage.png */,
+			);
+			path = "007 Synchron ActivityFeed Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED38F1CB4C71400DBEF86 /* 008 Synchron Eventchat Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3901CB4C71400DBEF86 /* 008 Synchron_Eventchat__navbar.png */,
+				EE6ED3911CB4C71400DBEF86 /* 008 Synchron_Eventchat_addimage.png */,
+				EE6ED3921CB4C71400DBEF86 /* 008 Synchron_Eventchat_cancel_btn.png */,
+				EE6ED3931CB4C71400DBEF86 /* 008 Synchron_Eventchat_choosephoto_btn.png */,
+				EE6ED3941CB4C71400DBEF86 /* 008 Synchron_Eventchat_IMessage field.png */,
+				EE6ED3951CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_backbtn.png */,
+				EE6ED3961CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_galleryicon.png */,
+				EE6ED3971CB4C71400DBEF86 /* 008 Synchron_Eventchat_popwindowbg.png */,
+				EE6ED3981CB4C71400DBEF86 /* 008 Synchron_Eventchat_takephoto_btn.png */,
+				EE6ED3991CB4C71400DBEF86 /* 008 Synchron_Eventchat_voicemessage.png */,
+			);
+			path = "008 Synchron Eventchat Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED39A1CB4C71400DBEF86 /* 009 Synchron Gallery Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED39B1CB4C71400DBEF86 /* 009 Synchron_Gallery__navbar.png */,
+				EE6ED39C1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_backbtn.png */,
+				EE6ED39D1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_homebtn.png */,
+				EE6ED39E1CB4C71400DBEF86 /* 009 Synchron_Gallery_thumbwindowframe.png */,
+			);
+			path = "009 Synchron Gallery Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED39F1CB4C71400DBEF86 /* 010 Synchron GPPreview Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3A01CB4C71400DBEF86 /* 010 Synchron_GPPreview_menu_icon.png */,
+				EE6ED3A11CB4C71400DBEF86 /* 010 Synchron_GPPreview_navbar.png */,
+				EE6ED3A21CB4C71400DBEF86 /* 010 Synchron_GPPreview_shareicon.png */,
+				EE6ED3A31CB4C71400DBEF86 /* 010 Synchron_GPPreview_subtitlebarbg.png */,
+			);
+			path = "010 Synchron GPPreview Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3A41CB4C71400DBEF86 /* 011 Synchron Teammembers Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3A51CB4C71400DBEF86 /* 011 Synchron_Teammembers__navbar.png */,
+				EE6ED3A61CB4C71400DBEF86 /* 011 Synchron_Teammembers_menu_icon.png */,
+				EE6ED3A71CB4C71400DBEF86 /* 011 Synchron_Teammembers_navbar_homebtn.png */,
+				EE6ED3A81CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_bottomline.png */,
+				EE6ED3A91CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_active.png */,
+				EE6ED3AA1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_inactive.png */,
+				EE6ED3AB1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_active.png */,
+				EE6ED3AC1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_inactive.png */,
+				EE6ED3AD1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbframe.png */,
+				EE6ED3AE1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbinfoicon.png */,
+			);
+			path = "011 Synchron Teammembers Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3AF1CB4C71400DBEF86 /* 012 Synchron Profile Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3B01CB4C71400DBEF86 /* 012 Synchron_Profile__navbar.png */,
+				EE6ED3B11CB4C71400DBEF86 /* 012 Synchron_Profile_editprofile_icon.png */,
+				EE6ED3B21CB4C71400DBEF86 /* 012 Synchron_Profile_email_field.png */,
+				EE6ED3B31CB4C71400DBEF86 /* 012 Synchron_Profile_menu_icon.png */,
+				EE6ED3B41CB4C71400DBEF86 /* 012 Synchron_Profile_mobile_field.png */,
+				EE6ED3B51CB4C71400DBEF86 /* 012 Synchron_Profile_password_field.png */,
+				EE6ED3B61CB4C71400DBEF86 /* 012 Synchron_Profile_phone_field.png */,
+				EE6ED3B71CB4C71400DBEF86 /* 012 Synchron_Profile_pic bg.png */,
+				EE6ED3B81CB4C71400DBEF86 /* 012 Synchron_Profile_profilepicgrame.png */,
+				EE6ED3B91CB4C71400DBEF86 /* 012 Synchron_Profile_subtitle bar.png */,
+			);
+			path = "012 Synchron Profile Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3BA1CB4C71400DBEF86 /* 013 Synchron Profile Edit Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3BB1CB4C71400DBEF86 /* 013 Synchron_Profileedit_addprofilepic.png */,
+				EE6ED3BC1CB4C71400DBEF86 /* 013 Synchron_Profileedit_email_field.png */,
+				EE6ED3BD1CB4C71400DBEF86 /* 013 Synchron_Profileedit_menu_icon.png */,
+				EE6ED3BE1CB4C71400DBEF86 /* 013 Synchron_Profileedit_mobile_field.png */,
+				EE6ED3BF1CB4C71400DBEF86 /* 013 Synchron_Profileedit_navbar.png */,
+				EE6ED3C01CB4C71400DBEF86 /* 013 Synchron_Profileedit_newpassword_field.png */,
+				EE6ED3C11CB4C71400DBEF86 /* 013 Synchron_Profileedit_password_field.png */,
+				EE6ED3C21CB4C71400DBEF86 /* 013 Synchron_Profileedit_personalinfo_textfield.png */,
+				EE6ED3C31CB4C71400DBEF86 /* 013 Synchron_Profileedit_phone_field.png */,
+				EE6ED3C41CB4C71400DBEF86 /* 013 Synchron_Profileedit_reenterpassword_field.png */,
+				EE6ED3C51CB4C71400DBEF86 /* 013 Synchron_Profileedit_save_icon.png */,
+				EE6ED3C61CB4C71400DBEF86 /* 013 Synchron_Profileedit_subtitle bar.png */,
+			);
+			path = "013 Synchron Profile Edit Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3C71CB4C71400DBEF86 /* 014 Synchron Advisor Profile Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3C81CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_email icon.png */,
+				EE6ED3C91CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_menu_icon.png */,
+				EE6ED3CA1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar.png */,
+				EE6ED3CB1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar_comment_icon.png */,
+				EE6ED3CC1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_phone icon.png */,
+				EE6ED3CD1CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_text filed.png */,
+			);
+			path = "014 Synchron Advisor Profile Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3CE1CB4C71400DBEF86 /* 015 Synchron Eventfeedback Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3CF1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar.png */,
+				EE6ED3D01CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_backbtn.png */,
+				EE6ED3D11CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_homebtn.png */,
+				EE6ED3D21CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_bg.png */,
+				EE6ED3D31CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_blueline.png */,
+				EE6ED3D41CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_movingdot.png */,
+				EE6ED3D51CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_whiteline.png */,
+				EE6ED3D61CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_submit btn.png */,
+				EE6ED3D71CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_subtitle bar.png */,
+			);
+			path = "015 Synchron Eventfeedback Elements";
+			sourceTree = "<group>";
+		};
+		EE6ED3D81CB4C71400DBEF86 /* 016 Synchron SpeakersFeedback Elements */ = {
+			isa = PBXGroup;
+			children = (
+				EE6ED3D91CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar.png */,
+				EE6ED3DA1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_backbtn.png */,
+				EE6ED3DB1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_homebtn.png */,
+				EE6ED3DC1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_bg.png */,
+				EE6ED3DD1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_blueline.png */,
+				EE6ED3DE1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_movingdot.png */,
+				EE6ED3DF1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_whiteline.png */,
+				EE6ED3E01CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_submit btn.png */,
+				EE6ED3E11CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_subtitle bar.png */,
+			);
+			path = "016 Synchron SpeakersFeedback Elements";
+			sourceTree = "<group>";
+		};
+		EE7B84261CABAFFA00DB9466 /* EventDetail */ = {
+			isa = PBXGroup;
+			children = (
+				EE8EE0341CC8BDD100ECDB18 /* Profile */,
+				EE7B841C1CAB934D00DB9466 /* Rsvp.h */,
+				EE7B841D1CAB934D00DB9466 /* Rsvp.m */,
+				EE8173FC1CAA96C900207821 /* EventFeedback.h */,
+				EE8173FD1CAA96C900207821 /* EventFeedback.m */,
+				EE8173FF1CAA96E200207821 /* SpeakersFeedback.h */,
+				EE8174001CAA96E200207821 /* SpeakersFeedback.m */,
+				EE8173F31CAA6B7000207821 /* LocationDetails.h */,
+				EE8173F41CAA6B7000207821 /* LocationDetails.m */,
+				EE8173F61CAA740100207821 /* AgendaView.h */,
+				EE8173F71CAA740100207821 /* AgendaView.m */,
+				EE7B841F1CAB997B00DB9466 /* QRCodeReader.h */,
+				EE7B84201CAB997B00DB9466 /* QRCodeReader.m */,
+				EE7B84241CABAA4700DB9466 /* beep.mp3 */,
+				EE8173F91CAA823600207821 /* FeedBack.h */,
+				EE8173FA1CAA823600207821 /* FeedBack.m */,
+				EEDB73561CC4DBBC00F70433 /* ContentFeedback.h */,
+				EEDB73571CC4DBBC00F70433 /* ContentFeedback.m */,
+			);
+			name = EventDetail;
+			sourceTree = "<group>";
+		};
+		EE7C436D1CA9570B008F64BA /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EE04297A1CCE48C10052FEBC /* profile.png */,
+				EE04297E1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_active icon.png */,
+				EE04297F1CD0B91B0052FEBC /* 004 Synchron_Menu_TM_inactive icon.png */,
+				EE7C43601CA9427A008F64BA /* ActivityFeed.h */,
+				EE7C43611CA9427A008F64BA /* ActivityFeed.m */,
+				EE7C43561CA92654008F64BA /* Events.h */,
+				EE7C43571CA92654008F64BA /* Events.m */,
+				EE7C43671CA94991008F64BA /* WebViewController.h */,
+				EE7C43681CA94991008F64BA /* WebViewController.m */,
+				EE7C436A1CA94FA1008F64BA /* LocationViewController.h */,
+				EE7C436B1CA94FA1008F64BA /* LocationViewController.m */,
+				EE73BDB91CAE718200406D72 /* Advisors.h */,
+				EE73BDBA1CAE718200406D72 /* Advisors.m */,
+				EE7B84221CABA5E400DB9466 /* AVFoundation.framework */,
+				EE6ED3441CB3E51900DBEF86 /* EventTableViewCell.h */,
+				EE6ED3451CB3E51900DBEF86 /* EventTableViewCell.m */,
+				EE6ED4891CBE438F00DBEF86 /* EventDAO.h */,
+				EE6ED48A1CBE438F00DBEF86 /* EventDAO.m */,
+				EEAC1B7D1CCB5E4D006B9558 /* AdvisorCollection.h */,
+				EEAC1B7E1CCB5E4D006B9558 /* AdvisorCollection.m */,
+				EEABE23A1D30DB2200C67AEC /* AdvisorCell.h */,
+				EEABE23B1D30DB2200C67AEC /* AdvisorCell.m */,
+				EEAC1B801CCB6005006B9558 /* AdCusCellCollectionViewCell.h */,
+				EEAC1B811CCB6005006B9558 /* AdCusCellCollectionViewCell.m */,
+				EEAC1B831CCB7FC0006B9558 /* AdvisorDOA.h */,
+				EEAC1B841CCB7FC0006B9558 /* AdvisorDOA.m */,
+				EE0ECC8C1CD21F4300B153C4 /* SpeakerTableCell.h */,
+				EE0ECC8D1CD21F4400B153C4 /* SpeakerTableCell.m */,
+				EEBDC01A1D22909700E840DE /* ActivityTableViewCell.h */,
+				EEBDC01B1D22909700E840DE /* ActivityTableViewCell.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EE8EE0341CC8BDD100ECDB18 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EE8EE0351CC8BDFC00ECDB18 /* profileViewViewController.h */,
+				EE8EE0361CC8BDFC00ECDB18 /* profileViewViewController.m */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		EEB0FD501CA297390047E4A8 = {
+			isa = PBXGroup;
+			children = (
+				EEB963151D32BF9300EE87A6 /* TableViewController.h */,
+				EEB963161D32BF9300EE87A6 /* TableViewController.m */,
+				EEB963171D32BF9300EE87A6 /* TableViewController.xib */,
+				EEB9630D1D3277F200EE87A6 /* BubbleChatView.h */,
+				EEB9630E1D3277F200EE87A6 /* BubbleChatView.m */,
+				EEB9630F1D3277F200EE87A6 /* BubbleChatView.xib */,
+				EEBDBFF61D223EFF00E840DE /* Bolts.framework */,
+				EEBDBFF71D223EFF00E840DE /* Parse.framework */,
+				EE6ED4871CBCFC8500DBEF86 /* iPhone5.5inch.storyboard */,
+				EE6ED4831CBCFC4500DBEF86 /* iPhone4inch.storyboard */,
+				EE140F691CE49568005EA5C0 /* iPhone3.5inch.storyboard */,
+				EEB329061CA3D5EA000F5DE8 /* Main.storyboard */,
+				EEABE23D1D30DD6E00C67AEC /* chevron15arrow.png */,
+				EE0160D91CDB4CD300DC349C /* call.png */,
+				EE0160DE1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_First Name icon.png */,
+				EE0160DF1CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Last Name icon.png */,
+				EE0160E01CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Ophone icon.png */,
+				EE0160E11CDB5A3400DC349C /* 014 Synchron_Advisorprofile_title icon.png */,
+				EE0ECC951CD390DE00B153C4 /* 014 Synchron_Advisorprofile_location icon.png */,
+				EE0ECC931CD390D300B153C4 /* 014 Synchron_Advisorprofile_user icon.png */,
+				EE0ECC911CD38D5000B153C4 /* 014 Synchron_Advisorprofile_text filed.png */,
+				EE0ECC8F1CD38C1000B153C4 /* 014 Synchron_Advisorprofile_tintbg.png */,
+				EE04297C1CD0ABE80052FEBC /* 003 Synchron_-UEvents_list_selected.png */,
+				EEAC1B2E1CC9FA85006B9558 /* 002 Synchron_Signin_checkbox.png */,
+				EE8EE02A1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_attending_icon.png */,
+				EE8EE02B1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_deselected.png */,
+				EE8EE02C1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_selected.png */,
+				EE8EE02D1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_notattending_icon.png */,
+				EE8EE02E1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_tentitive_icon.png */,
+				EEAC1B301CCA022C006B9558 /* 002 Synchron_Signin_uncheckbox.png */,
+				EEDB73541CBFCC8300F70433 /* meeting.png */,
+				EEA94BE11CAD365200DA66D9 /* SignUp.h */,
+				EEA94BE21CAD365200DA66D9 /* SignUp.m */,
+				EEA94BDE1CAD25EE00DA66D9 /* EditProfileViewController.h */,
+				EEA94BDF1CAD25EE00DA66D9 /* EditProfileViewController.m */,
+				EEB0FD5B1CA297390047E4A8 /* Synchron */,
+				EE6ED3471CB4C71400DBEF86 /* Synchron UI Screen Elements */,
+				EEB3291B1CA3F659000F5DE8 /* Frameworks */,
+				EE7B84261CABAFFA00DB9466 /* EventDetail */,
+				EE7C436D1CA9570B008F64BA /* Categories */,
+				EEB0FD751CA2973A0047E4A8 /* SynchronTests */,
+				EEB0FD801CA2973A0047E4A8 /* SynchronUITests */,
+				EEB0FD5A1CA297390047E4A8 /* Products */,
+				E1D76DF7C03A34BC28258E75 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EEB0FD5A1CA297390047E4A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0FD591CA297390047E4A8 /* Synchron.app */,
+				EEB0FD721CA2973A0047E4A8 /* SynchronTests.xctest */,
+				EEB0FD7D1CA2973A0047E4A8 /* SynchronUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEB0FD5B1CA297390047E4A8 /* Synchron */ = {
+			isa = PBXGroup;
+			children = (
+				EEB962F21D32646C00EE87A6 /* Chat babbule */,
+				EEB0FD5F1CA2973A0047E4A8 /* AppDelegate.h */,
+				EEB0FD601CA2973A0047E4A8 /* AppDelegate.m */,
+				EEB3290C1CA3D5EA000F5DE8 /* MainViewController.h */,
+				EEB3290D1CA3D5EA000F5DE8 /* MainViewController.m */,
+				EEB3290E1CA3D5EA000F5DE8 /* SidebarTableViewController.h */,
+				EEB3290F1CA3D5EA000F5DE8 /* SidebarTableViewController.m */,
+				EE6ED46C1CB4FE9000DBEF86 /* UsermenuTableViewCell.h */,
+				EE6ED46D1CB4FE9000DBEF86 /* UsermenuTableViewCell.m */,
+				EEB3291D1CA407AB000F5DE8 /* LoginPage.h */,
+				EEB3291E1CA407AB000F5DE8 /* LoginPage.m */,
+				EEB0FD6D1CA2973A0047E4A8 /* Info.plist */,
+				EE0429821CD0C3450052FEBC /* narayana.png */,
+				EEB0FD6A1CA2973A0047E4A8 /* LaunchScreen.storyboard */,
+				EEB329071CA3D5EA000F5DE8 /* Images.xcassets */,
+				EEB0FD5C1CA297390047E4A8 /* Supporting Files */,
+				EE0429841CD0C4EB0052FEBC /* TeamCollection.h */,
+				EE0429851CD0C4EB0052FEBC /* TeamCollection.m */,
+				EE0429871CD0C5100052FEBC /* BusinessPartnersCollection.h */,
+				EE0429881CD0C5100052FEBC /* BusinessPartnersCollection.m */,
+				EE04298A1CD0DF6B0052FEBC /* MarkAttendance.h */,
+				EE04298B1CD0DF6B0052FEBC /* MarkAttendance.m */,
+				EE0160DB1CDB4DA200DC349C /* callViewCon.h */,
+				EE0160DC1CDB4DA200DC349C /* callViewCon.m */,
+			);
+			path = Synchron;
+			sourceTree = "<group>";
+		};
+		EEB0FD5C1CA297390047E4A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3291C1CA3F66C000F5DE8 /* SwRevealController */,
+				EEB0FD5D1CA297390047E4A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEB0FD751CA2973A0047E4A8 /* SynchronTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0FD761CA2973A0047E4A8 /* SynchronTests.m */,
+				EEB0FD781CA2973A0047E4A8 /* Info.plist */,
+			);
+			path = SynchronTests;
+			sourceTree = "<group>";
+		};
+		EEB0FD801CA2973A0047E4A8 /* SynchronUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB0FD811CA2973A0047E4A8 /* SynchronUITests.m */,
+				EEB0FD831CA2973A0047E4A8 /* Info.plist */,
+			);
+			path = SynchronUITests;
+			sourceTree = "<group>";
+		};
+		EEB3291B1CA3F659000F5DE8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEBDC00C1D223FD300E840DE /* libsqlite3.tbd */,
+				EEBDC00A1D223FC600E840DE /* libz.tbd */,
+				EEBDC0081D223FBE00E840DE /* SystemConfiguration.framework */,
+				EEBDC0061D223FB800E840DE /* StoreKit.framework */,
+				EEBDC0041D223FB200E840DE /* Security.framework */,
+				EEBDC0021D223FAB00E840DE /* QuartzCore.framework */,
+				EEBDC0001D223FA400E840DE /* CoreLocation.framework */,
+				EEBDBFFE1D223F9E00E840DE /* CoreGraphics.framework */,
+				EEBDBFFC1D223F9400E840DE /* CFNetwork.framework */,
+				EEBDBFFA1D223F8E00E840DE /* AudioToolbox.framework */,
+				EE015F591CDA12AC00DC349C /* AssetsLibrary.framework */,
+				EEB329191CA3E7FC000F5DE8 /* MapKit.framework */,
+				E96C1737B2A72F73BA90AAC9 /* libPods-Synchron.a */,
+				9E8A92266E6ACDB5042EA0A4 /* libPods-SynchronTests.a */,
+				00E6E5DCD45048E65FE97A92 /* libPods-SynchronUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB3291C1CA3F66C000F5DE8 /* SwRevealController */ = {
+			isa = PBXGroup;
+			children = (
+				EEB329161CA3D72F000F5DE8 /* SWRevealViewController.h */,
+				EEB329171CA3D72F000F5DE8 /* SWRevealViewController.m */,
+			);
+			name = SwRevealController;
+			sourceTree = "<group>";
+		};
+		EEB962F21D32646C00EE87A6 /* Chat babbule */ = {
+			isa = PBXGroup;
+			children = (
+				EEB962F31D3264AA00EE87A6 /* NSBubbleData.h */,
+				EEB962F41D3264AA00EE87A6 /* NSBubbleData.m */,
+				EEB962F51D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.h */,
+				EEB962F61D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.m */,
+				EEB962F71D3264AA00EE87A6 /* UIBubbleTableView.h */,
+				EEB962F81D3264AA00EE87A6 /* UIBubbleTableView.m */,
+				EEB962F91D3264AA00EE87A6 /* UIBubbleTableViewCell.h */,
+				EEB962FA1D3264AA00EE87A6 /* UIBubbleTableViewCell.m */,
+				EEB962FB1D3264AA00EE87A6 /* UIBubbleTableViewDataSource.h */,
+				EEB962FC1D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.h */,
+				EEB962FD1D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.m */,
+				EEB963041D326AB900EE87A6 /* UIBubbleTableViewExample-Prefix.pch */,
+			);
+			name = "Chat babbule";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEB0FD581CA297390047E4A8 /* Synchron */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB0FD861CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "Synchron" */;
+			buildPhases = (
+				0F920520540E237AF9C81834 /* 📦 Check Pods Manifest.lock */,
+				EEB0FD551CA297390047E4A8 /* Sources */,
+				EEB0FD561CA297390047E4A8 /* Frameworks */,
+				EEB0FD571CA297390047E4A8 /* Resources */,
+				A6606F52CCBDB8E7DC4526F9 /* 📦 Embed Pods Frameworks */,
+				CBED2AA4EAFEEEFDFB59D023 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Synchron;
+			productName = Synchron;
+			productReference = EEB0FD591CA297390047E4A8 /* Synchron.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEB0FD711CA2973A0047E4A8 /* SynchronTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB0FD891CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "SynchronTests" */;
+			buildPhases = (
+				1A870942E019AA1C8417A33C /* 📦 Check Pods Manifest.lock */,
+				EEB0FD6E1CA2973A0047E4A8 /* Sources */,
+				EEB0FD6F1CA2973A0047E4A8 /* Frameworks */,
+				EEB0FD701CA2973A0047E4A8 /* Resources */,
+				0B30808E3731C91639C17879 /* 📦 Embed Pods Frameworks */,
+				701F54CB4E7647E4C259E1E6 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB0FD741CA2973A0047E4A8 /* PBXTargetDependency */,
+			);
+			name = SynchronTests;
+			productName = SynchronTests;
+			productReference = EEB0FD721CA2973A0047E4A8 /* SynchronTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEB0FD7C1CA2973A0047E4A8 /* SynchronUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEB0FD8C1CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "SynchronUITests" */;
+			buildPhases = (
+				40277A53BC645EA5D6FA2CAA /* 📦 Check Pods Manifest.lock */,
+				EEB0FD791CA2973A0047E4A8 /* Sources */,
+				EEB0FD7A1CA2973A0047E4A8 /* Frameworks */,
+				EEB0FD7B1CA2973A0047E4A8 /* Resources */,
+				98E82A52937F4946A57B6245 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEB0FD7F1CA2973A0047E4A8 /* PBXTargetDependency */,
+			);
+			name = SynchronUITests;
+			productName = SynchronUITests;
+			productReference = EEB0FD7D1CA2973A0047E4A8 /* SynchronUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEB0FD511CA297390047E4A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "NCPL Inc";
+				TargetAttributes = {
+					EEB0FD581CA297390047E4A8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HY955GG84A;
+					};
+					EEB0FD711CA2973A0047E4A8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB0FD581CA297390047E4A8;
+					};
+					EEB0FD7C1CA2973A0047E4A8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EEB0FD581CA297390047E4A8;
+					};
+				};
+			};
+			buildConfigurationList = EEB0FD541CA297390047E4A8 /* Build configuration list for PBXProject "Synchron" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEB0FD501CA297390047E4A8;
+			productRefGroup = EEB0FD5A1CA297390047E4A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEB0FD581CA297390047E4A8 /* Synchron */,
+				EEB0FD711CA2973A0047E4A8 /* SynchronTests */,
+				EEB0FD7C1CA2973A0047E4A8 /* SynchronUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEB0FD571CA297390047E4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE6ED4691CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_whiteline.png in Resources */,
+				EE6ED4181CB4C71400DBEF86 /* 006 Synchron_QRCode_menu_icon.png in Resources */,
+				EE6ED4371CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_bottomline.png in Resources */,
+				EE6ED4401CB4C71400DBEF86 /* 012 Synchron_Profile_email_field.png in Resources */,
+				EE6ED4191CB4C71400DBEF86 /* 006 Synchron_QRCode_navbar.png in Resources */,
+				EE8EE0311CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_selected.png in Resources */,
+				EE6ED3FB1CB4C71400DBEF86 /* 004 Synchron_Menu_Events_inactive icon.png in Resources */,
+				EE6ED4661CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_bg.png in Resources */,
+				EEDB73551CBFCC8300F70433 /* meeting.png in Resources */,
+				EE6ED4011CB4C71400DBEF86 /* 004 Synchron_Menu_menu bg.png in Resources */,
+				EE6ED44A1CB4C71400DBEF86 /* 013 Synchron_Profileedit_menu_icon.png in Resources */,
+				EE6ED4551CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_menu_icon.png in Resources */,
+				EE6ED4311CB4C71400DBEF86 /* 010 Synchron_GPPreview_navbar.png in Resources */,
+				EE6ED4381CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_active.png in Resources */,
+				EE6ED3F21CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_active icon.png in Resources */,
+				EEB963191D32BF9300EE87A6 /* TableViewController.xib in Resources */,
+				EE6ED42C1CB4C71400DBEF86 /* 009 Synchron_Gallery__navbar.png in Resources */,
+				EE6ED3EA1CB4C71400DBEF86 /* 002 Synchron_Signin_username_icon.png in Resources */,
+				EE6ED47F1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_submit btn.png in Resources */,
+				EE6ED40D1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_RSVP_btn.png in Resources */,
+				EE6ED4301CB4C71400DBEF86 /* 010 Synchron_GPPreview_menu_icon.png in Resources */,
+				EE7B84251CABAA4700DB9466 /* beep.mp3 in Resources */,
+				EEABE23E1D30DD6E00C67AEC /* chevron15arrow.png in Resources */,
+				EE6ED3EB1CB4C71400DBEF86 /* 003 Synchron_UEvents_bg.png in Resources */,
+				EE6ED4281CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_galleryicon.png in Resources */,
+				EE6ED42E1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_homebtn.png in Resources */,
+				EE6ED4431CB4C71400DBEF86 /* 012 Synchron_Profile_password_field.png in Resources */,
+				EE6ED43F1CB4C71400DBEF86 /* 012 Synchron_Profile_editprofile_icon.png in Resources */,
+				EE6ED4881CBCFC8500DBEF86 /* iPhone5.5inch.storyboard in Resources */,
+				EE8EE0331CC8A8CF00ECDB18 /* 003 Synchron_UEvents_tentitive_icon.png in Resources */,
+				EE8EE02F1CC8A8CF00ECDB18 /* 003 Synchron_UEvents_attending_icon.png in Resources */,
+				EE6ED3E21CB4C71400DBEF86 /* 001 Synchron_Splash.png in Resources */,
+				EE6ED43B1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_inactive.png in Resources */,
+				EE6ED4151CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker active.png in Resources */,
+				EE6ED40B1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_backbtn.png in Resources */,
+				EE6ED47E1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_whiteline.png in Resources */,
+				EEB963111D3277F200EE87A6 /* BubbleChatView.xib in Resources */,
+				EE6ED42F1CB4C71400DBEF86 /* 009 Synchron_Gallery_thumbwindowframe.png in Resources */,
+				EE6ED3F11CB4C71400DBEF86 /* 003 Synchron_UEvents_subtitlebar.png in Resources */,
+				EE6ED4511CB4C71400DBEF86 /* 013 Synchron_Profileedit_reenterpassword_field.png in Resources */,
+				EE0429801CD0B91B0052FEBC /* 004 Synchron_Menu_TM_active icon.png in Resources */,
+				EE6ED4241CB4C71400DBEF86 /* 008 Synchron_Eventchat_cancel_btn.png in Resources */,
+				EE6ED3EF1CB4C71400DBEF86 /* 003 Synchron_UEvents_navbar.png in Resources */,
+				EE6ED4421CB4C71400DBEF86 /* 012 Synchron_Profile_mobile_field.png in Resources */,
+				EE6ED4091CB4C71400DBEF86 /* 005 Synchron_Eventdetails_attendance bg.png in Resources */,
+				EE0ECC961CD390DE00B153C4 /* 014 Synchron_Advisorprofile_location icon.png in Resources */,
+				EE6ED3E51CB4C71400DBEF86 /* 002 Synchron_Signin_password_icon.png in Resources */,
+				EE6ED44C1CB4C71400DBEF86 /* 013 Synchron_Profileedit_navbar.png in Resources */,
+				EE6ED4451CB4C71400DBEF86 /* 012 Synchron_Profile_pic bg.png in Resources */,
+				EE6ED4681CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_movingdot.png in Resources */,
+				EE6ED43A1CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_ST_active.png in Resources */,
+				EE04297D1CD0ABE80052FEBC /* 003 Synchron_-UEvents_list_selected.png in Resources */,
+				EE04297B1CCE48C10052FEBC /* profile.png in Resources */,
+				EE6ED4391CB4C71400DBEF86 /* 011 Synchron_Teammembers_tab_PT_inactive.png in Resources */,
+				EE6ED4471CB4C71400DBEF86 /* 012 Synchron_Profile_subtitle bar.png in Resources */,
+				EE6ED4001CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_inactive icon.png in Resources */,
+				EE6ED4631CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar.png in Resources */,
+				EE8EE0301CC8A8CF00ECDB18 /* 003 Synchron_UEvents_list_deselected.png in Resources */,
+				EE6ED47D1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_movingdot.png in Resources */,
+				EE6ED4071CB4C71400DBEF86 /* 004 Synchron_profile pic.png in Resources */,
+				EE6ED44E1CB4C71400DBEF86 /* 013 Synchron_Profileedit_password_field.png in Resources */,
+				EE6ED3E31CB4C71400DBEF86 /* 002 Synchron_Signin_checkbox.png in Resources */,
+				EE6ED45B1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_backbtn.png in Resources */,
+				EE6ED4651CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_homebtn.png in Resources */,
+				EE6ED4261CB4C71400DBEF86 /* 008 Synchron_Eventchat_IMessage field.png in Resources */,
+				EE6ED45D1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_bg.png in Resources */,
+				EE6ED40F1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda active.png in Resources */,
+				EE6ED4561CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar.png in Resources */,
+				EE6ED4841CBCFC4500DBEF86 /* iPhone4inch.storyboard in Resources */,
+				EE6ED4591CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_text filed.png in Resources */,
+				EE6ED3FA1CB4C71400DBEF86 /* 004 Synchron_Menu_Events_active icon.png in Resources */,
+				EE6ED41C1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_addimage.png in Resources */,
+				EEAC1B311CCA022C006B9558 /* 002 Synchron_Signin_uncheckbox.png in Resources */,
+				EE6ED3F31CB4C71400DBEF86 /* 004 Synchron_Menu_Advisors_inactive icon.png in Resources */,
+				EE8EE0321CC8A8CF00ECDB18 /* 003 Synchron_UEvents_notattending_icon.png in Resources */,
+				EE6ED3F01CB4C71400DBEF86 /* 003 Synchron_UEvents_profile_icon.png in Resources */,
+				EE6ED3F61CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_active icon.png in Resources */,
+				EE6ED4481CB4C71400DBEF86 /* 013 Synchron_Profileedit_addprofilepic.png in Resources */,
+				EE6ED4081CB4C71400DBEF86 /* 005 Synchron_Eventdetails_agendapoint mark.png in Resources */,
+				EE6ED4171CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tabbottomline.png in Resources */,
+				EE6ED4161CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Speaker inactive.png in Resources */,
+				EE6ED3FF1CB4C71400DBEF86 /* 004 Synchron_Menu_MAttend_active icon.png in Resources */,
+				EE0160DA1CDB4CD300DC349C /* call.png in Resources */,
+				EE6ED47A1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar.png in Resources */,
+				EE6ED4321CB4C71400DBEF86 /* 010 Synchron_GPPreview_shareicon.png in Resources */,
+				EE0160E41CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Ophone icon.png in Resources */,
+				EE6ED4501CB4C71400DBEF86 /* 013 Synchron_Profileedit_phone_field.png in Resources */,
+				EE647FCA1CD766820090C49D /* 002 Synchron_Signin_signin_btn.png in Resources */,
+				EE6ED4201CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_galleryicon.png in Resources */,
+				EE6ED4781CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_backbtn.png in Resources */,
+				EE6ED4671CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_scale_blueline.png in Resources */,
+				EE6ED4461CB4C71400DBEF86 /* 012 Synchron_Profile_profilepicgrame.png in Resources */,
+				EE6ED41F1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar_backbtn.png in Resources */,
+				EE6ED4791CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_navbar_homebtn.png in Resources */,
+				EE0ECC941CD390D300B153C4 /* 014 Synchron_Advisorprofile_user icon.png in Resources */,
+				EE6ED4611CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_submit btn.png in Resources */,
+				EE6ED4021CB4C71400DBEF86 /* 004 Synchron_Menu_profile_active icon.png in Resources */,
+				EE6ED4531CB4C71400DBEF86 /* 013 Synchron_Profileedit_subtitle bar.png in Resources */,
+				EE6ED4491CB4C71400DBEF86 /* 013 Synchron_Profileedit_email_field.png in Resources */,
+				EE6ED40E1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_submit_btn.png in Resources */,
+				EE6ED3FD1CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG inactive.png in Resources */,
+				EE0160E31CDB5A3400DC349C /* 014 Synchron_Advisorprofile_Last Name icon.png in Resources */,
+				EE6ED4601CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_whiteline.png in Resources */,
+				EE6ED4271CB4C71400DBEF86 /* 008 Synchron_Eventchat_navbar_backbtn.png in Resources */,
+				EE6ED4051CB4C71400DBEF86 /* 004 Synchron_Menu_signout_inactive icon.png in Resources */,
+				EE6ED4291CB4C71400DBEF86 /* 008 Synchron_Eventchat_popwindowbg.png in Resources */,
+				EE6ED43E1CB4C71400DBEF86 /* 012 Synchron_Profile__navbar.png in Resources */,
+				EE6ED45A1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar.png in Resources */,
+				EE6ED44D1CB4C71400DBEF86 /* 013 Synchron_Profileedit_newpassword_field.png in Resources */,
+				EE0ECC921CD38D5000B153C4 /* 014 Synchron_Advisorprofile_text filed.png in Resources */,
+				EE6ED42A1CB4C71400DBEF86 /* 008 Synchron_Eventchat_takephoto_btn.png in Resources */,
+				EE6ED44B1CB4C71400DBEF86 /* 013 Synchron_Profileedit_mobile_field.png in Resources */,
+				EE6ED4211CB4C71400DBEF86 /* 007 Synchron_Activityfeed_voicemessage.png in Resources */,
+				EE6ED4121CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance inactive.png in Resources */,
+				EE6ED4411CB4C71400DBEF86 /* 012 Synchron_Profile_menu_icon.png in Resources */,
+				EE0160E51CDB5A3400DC349C /* 014 Synchron_Advisorprofile_title icon.png in Resources */,
+				EE6ED46B1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_subtitle bar.png in Resources */,
+				EE0160E21CDB5A3400DC349C /* 014 Synchron_Advisorprofile_First Name icon.png in Resources */,
+				EE6ED4331CB4C71400DBEF86 /* 010 Synchron_GPPreview_subtitlebarbg.png in Resources */,
+				EE6ED4641CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_navbar_backbtn.png in Resources */,
+				EE6ED3FE1CB4C71400DBEF86 /* 004 Synchron_Menu_locationl icon.png in Resources */,
+				EE6ED4351CB4C71400DBEF86 /* 011 Synchron_Teammembers_menu_icon.png in Resources */,
+				EE6ED47C1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_blueline.png in Resources */,
+				EE6ED42B1CB4C71400DBEF86 /* 008 Synchron_Eventchat_voicemessage.png in Resources */,
+				EE6ED45C1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_navbar_homebtn.png in Resources */,
+				EE6ED46A1CB4C71400DBEF86 /* 016 Synchron_SpeakersFeedback_submit btn.png in Resources */,
+				EE6ED3F41CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_active icon.png in Resources */,
+				EE6ED3E71CB4C71400DBEF86 /* 002 Synchron_Signin_text_field.png in Resources */,
+				EE6ED4031CB4C71400DBEF86 /* 004 Synchron_Menu_profile_inactive icon.png in Resources */,
+				EE6ED4251CB4C71400DBEF86 /* 008 Synchron_Eventchat_choosephoto_btn.png in Resources */,
+				EE0429831CD0C3450052FEBC /* narayana.png in Resources */,
+				EE6ED3F71CB4C71400DBEF86 /* 004 Synchron_Menu_BPartners_inactive icon.png in Resources */,
+				EEB329101CA3D5EA000F5DE8 /* Main.storyboard in Resources */,
+				EE6ED3F81CB4C71400DBEF86 /* 004 Synchron_Menu_Call icon.png in Resources */,
+				EE6ED3E81CB4C71400DBEF86 /* 002 Synchron_Signin_topimage.png in Resources */,
+				EE6ED4231CB4C71400DBEF86 /* 008 Synchron_Eventchat_addimage.png in Resources */,
+				EE6ED45E1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_blueline.png in Resources */,
+				EE6ED3E41CB4C71400DBEF86 /* 002 Synchron_Signin_navbar.png in Resources */,
+				EE140F6A1CE49568005EA5C0 /* iPhone3.5inch.storyboard in Resources */,
+				EE6ED3E91CB4C71400DBEF86 /* 002 Synchron_Signin_uncheckbox.png in Resources */,
+				EE6ED41A1CB4C71400DBEF86 /* 006 Synchron_QRCode_subtilte.png in Resources */,
+				EE6ED4341CB4C71400DBEF86 /* 011 Synchron_Teammembers__navbar.png in Resources */,
+				EE6ED42D1CB4C71400DBEF86 /* 009 Synchron_Gallery_navbar_backbtn.png in Resources */,
+				EE6ED4141CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location inactive.png in Resources */,
+				EE6ED4111CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Attendance active.png in Resources */,
+				EE6ED4361CB4C71400DBEF86 /* 011 Synchron_Teammembers_navbar_homebtn.png in Resources */,
+				EE6ED3FC1CB4C71400DBEF86 /* 004 Synchron_Menu_listitem BG active.png in Resources */,
+				EE0429811CD0B91B0052FEBC /* 004 Synchron_Menu_TM_inactive icon.png in Resources */,
+				EEB329111CA3D5EA000F5DE8 /* Images.xcassets in Resources */,
+				EEAC1B2F1CC9FA86006B9558 /* 002 Synchron_Signin_checkbox.png in Resources */,
+				EE6ED4131CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_location active.png in Resources */,
+				EE6ED4441CB4C71400DBEF86 /* 012 Synchron_Profile_phone_field.png in Resources */,
+				EE6ED4041CB4C71400DBEF86 /* 004 Synchron_Menu_signout_active icon.png in Resources */,
+				EE6ED3F91CB4C71400DBEF86 /* 004 Synchron_Menu_divideline.png in Resources */,
+				EE6ED44F1CB4C71400DBEF86 /* 013 Synchron_Profileedit_personalinfo_textfield.png in Resources */,
+				EEB0FD6C1CA2973A0047E4A8 /* LaunchScreen.storyboard in Resources */,
+				EE6ED4521CB4C71400DBEF86 /* 013 Synchron_Profileedit_save_icon.png in Resources */,
+				EE6ED43C1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbframe.png in Resources */,
+				EE6ED40A1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar.png in Resources */,
+				EE0ECC901CD38C1000B153C4 /* 014 Synchron_Advisorprofile_tintbg.png in Resources */,
+				EE6ED41E1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_navbar.png in Resources */,
+				EE6ED4101CB4C71400DBEF86 /* 005 Synchron_Eventdetails_tab_Agenda inactive.png in Resources */,
+				EE6ED45F1CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_scale_movingdot.png in Resources */,
+				EE6ED40C1CB4C71400DBEF86 /* 005 Synchron_Eventdetails_navbar_comment_icon.png in Resources */,
+				EE6ED4061CB4C71400DBEF86 /* 004 Synchron_Menu_web icon.png in Resources */,
+				EE6ED4571CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_navbar_comment_icon.png in Resources */,
+				EE6ED43D1CB4C71400DBEF86 /* 011 Synchron_Teammembers_thumbinfoicon.png in Resources */,
+				EE6ED4221CB4C71400DBEF86 /* 008 Synchron_Eventchat__navbar.png in Resources */,
+				EE6ED4621CB4C71400DBEF86 /* 015 Synchron_Eventfeedback_subtitle bar.png in Resources */,
+				EE6ED41D1CB4C71400DBEF86 /* 007 Synchron_Activityfeed_IMessage field.png in Resources */,
+				EE6ED41B1CB4C71400DBEF86 /* 006 Synchron_QRCode_topimage.png in Resources */,
+				EE6ED47B1CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_scale_bg.png in Resources */,
+				EE6ED4541CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_email icon.png in Resources */,
+				EE6ED4581CB4C71400DBEF86 /* 014 Synchron_Advisorprofile_phone icon.png in Resources */,
+				EE6ED4801CBCD56000DBEF86 /* 017 Synchron_Eventfeedback_subtitle bar.png in Resources */,
+				EE6ED3F51CB4C71400DBEF86 /* 004 Synchron_Menu_AFeed_inactive icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD701CA2973A0047E4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD7B1CA2973A0047E4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B30808E3731C91639C17879 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SynchronTests/Pods-SynchronTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0F920520540E237AF9C81834 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1A870942E019AA1C8417A33C /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40277A53BC645EA5D6FA2CAA /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		701F54CB4E7647E4C259E1E6 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SynchronTests/Pods-SynchronTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E82A52937F4946A57B6245 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SynchronUITests/Pods-SynchronUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6606F52CCBDB8E7DC4526F9 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Synchron/Pods-Synchron-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBED2AA4EAFEEEFDFB59D023 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Synchron/Pods-Synchron-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEB0FD551CA297390047E4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE0ECC8E1CD21F4400B153C4 /* SpeakerTableCell.m in Sources */,
+				EE8174011CAA96E200207821 /* SpeakersFeedback.m in Sources */,
+				EE7C43621CA9427A008F64BA /* ActivityFeed.m in Sources */,
+				EE8173F51CAA6B7000207821 /* LocationDetails.m in Sources */,
+				EEDB73581CC4DBBC00F70433 /* ContentFeedback.m in Sources */,
+				EEB329141CA3D5EA000F5DE8 /* MainViewController.m in Sources */,
+				EE8173FE1CAA96C900207821 /* EventFeedback.m in Sources */,
+				EEAC1B7F1CCB5E4D006B9558 /* AdvisorCollection.m in Sources */,
+				EE7B84211CAB997B00DB9466 /* QRCodeReader.m in Sources */,
+				EEAC1B821CCB6005006B9558 /* AdCusCellCollectionViewCell.m in Sources */,
+				EE6ED46E1CB4FE9000DBEF86 /* UsermenuTableViewCell.m in Sources */,
+				EE0429891CD0C5100052FEBC /* BusinessPartnersCollection.m in Sources */,
+				EE8173F81CAA740100207821 /* AgendaView.m in Sources */,
+				EE04298C1CD0DF6B0052FEBC /* MarkAttendance.m in Sources */,
+				EE73BDBB1CAE718200406D72 /* Advisors.m in Sources */,
+				EEA94BE01CAD25EE00DA66D9 /* EditProfileViewController.m in Sources */,
+				EE7C43581CA92654008F64BA /* Events.m in Sources */,
+				EEB0FD611CA2973A0047E4A8 /* AppDelegate.m in Sources */,
+				EEABE23C1D30DB2200C67AEC /* AdvisorCell.m in Sources */,
+				EEB963181D32BF9300EE87A6 /* TableViewController.m in Sources */,
+				EEB329181CA3D72F000F5DE8 /* SWRevealViewController.m in Sources */,
+				EE7C436C1CA94FA1008F64BA /* LocationViewController.m in Sources */,
+				EE8173FB1CAA823600207821 /* FeedBack.m in Sources */,
+				EE6ED48B1CBE438F00DBEF86 /* EventDAO.m in Sources */,
+				EE0429861CD0C4EB0052FEBC /* TeamCollection.m in Sources */,
+				EEAC1B851CCB7FC0006B9558 /* AdvisorDOA.m in Sources */,
+				EEB963001D3264AA00EE87A6 /* UIBubbleTableView.m in Sources */,
+				EE7B841E1CAB934D00DB9466 /* Rsvp.m in Sources */,
+				EE7C43691CA94991008F64BA /* WebViewController.m in Sources */,
+				EEB0FD5E1CA2973A0047E4A8 /* main.m in Sources */,
+				EE6ED3461CB3E51900DBEF86 /* EventTableViewCell.m in Sources */,
+				EE0160DD1CDB4DA200DC349C /* callViewCon.m in Sources */,
+				EEB963011D3264AA00EE87A6 /* UIBubbleTableViewCell.m in Sources */,
+				EEB963021D3264AA00EE87A6 /* UIBubbleTypingTableViewCell.m in Sources */,
+				EEB963101D3277F200EE87A6 /* BubbleChatView.m in Sources */,
+				EE8EE0371CC8BDFC00ECDB18 /* profileViewViewController.m in Sources */,
+				EEA94BE31CAD365200DA66D9 /* SignUp.m in Sources */,
+				EEB962FE1D3264AA00EE87A6 /* NSBubbleData.m in Sources */,
+				EEB3291F1CA407AC000F5DE8 /* LoginPage.m in Sources */,
+				EEB962FF1D3264AA00EE87A6 /* UIBubbleHeaderTableViewCell.m in Sources */,
+				EEBDC01C1D22909700E840DE /* ActivityTableViewCell.m in Sources */,
+				EEB329151CA3D5EA000F5DE8 /* SidebarTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD6E1CA2973A0047E4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB0FD771CA2973A0047E4A8 /* SynchronTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEB0FD791CA2973A0047E4A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB0FD821CA2973A0047E4A8 /* SynchronUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEB0FD741CA2973A0047E4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB0FD581CA297390047E4A8 /* Synchron */;
+			targetProxy = EEB0FD731CA2973A0047E4A8 /* PBXContainerItemProxy */;
+		};
+		EEB0FD7F1CA2973A0047E4A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEB0FD581CA297390047E4A8 /* Synchron */;
+			targetProxy = EEB0FD7E1CA2973A0047E4A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEB0FD6A1CA2973A0047E4A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEB0FD6B1CA2973A0047E4A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEB0FD841CA2973A0047E4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nanna Computers Pvt Ltd (2EL3DGFAP8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEB0FD851CA2973A0047E4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nanna Computers Pvt Ltd (2EL3DGFAP8)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEB0FD871CA2973A0047E4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E60EDDAC0BE964CDF78663B /* Pods-Synchron.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nanna Computers Pvt Ltd (2EL3DGFAP8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.12.0",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Synchron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Synchron/lib/CommLibiOS",
+					"$(PROJECT_DIR)/Synchron/lib/ffmpeg-2.2.1/lib",
+					"$(PROJECT_DIR)/Synchron/lib/libspeex-1.2rc1/lib",
+					"$(PROJECT_DIR)/Synchron/lib/libx264-r2409/lib",
+					"$(PROJECT_DIR)/Synchron/lib/MediaLibiOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.Synchron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEB0FD881CA2973A0047E4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06B4D189A3E5EFAD93750F79 /* Pods-Synchron.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Nanna Computers Pvt Ltd (2EL3DGFAP8)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/parse-library-1.12.0",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Synchron/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Synchron/lib/CommLibiOS",
+					"$(PROJECT_DIR)/Synchron/lib/ffmpeg-2.2.1/lib",
+					"$(PROJECT_DIR)/Synchron/lib/libspeex-1.2rc1/lib",
+					"$(PROJECT_DIR)/Synchron/lib/libx264-r2409/lib",
+					"$(PROJECT_DIR)/Synchron/lib/MediaLibiOS",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.Synchron;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EEB0FD8A1CA2973A0047E4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D43A7FA71F1AFBB183138D8C /* Pods-SynchronTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SynchronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.SynchronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Synchron.app/Synchron";
+			};
+			name = Debug;
+		};
+		EEB0FD8B1CA2973A0047E4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977252BCCE1E1D15DB022357 /* Pods-SynchronTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SynchronTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.SynchronTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Synchron.app/Synchron";
+			};
+			name = Release;
+		};
+		EEB0FD8D1CA2973A0047E4A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CA0C99C5EDFBC82884E3071 /* Pods-SynchronUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SynchronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.SynchronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Synchron;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEB0FD8E1CA2973A0047E4A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC0A458B76E58B7775CE60DA /* Pods-SynchronUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = SynchronUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ncpl.SynchronUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Synchron;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEB0FD541CA297390047E4A8 /* Build configuration list for PBXProject "Synchron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB0FD841CA2973A0047E4A8 /* Debug */,
+				EEB0FD851CA2973A0047E4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB0FD861CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "Synchron" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB0FD871CA2973A0047E4A8 /* Debug */,
+				EEB0FD881CA2973A0047E4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB0FD891CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "SynchronTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB0FD8A1CA2973A0047E4A8 /* Debug */,
+				EEB0FD8B1CA2973A0047E4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEB0FD8C1CA2973A0047E4A8 /* Build configuration list for PBXNativeTarget "SynchronUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEB0FD8D1CA2973A0047E4A8 /* Debug */,
+				EEB0FD8E1CA2973A0047E4A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEB0FD511CA297390047E4A8 /* Project object */;
+}

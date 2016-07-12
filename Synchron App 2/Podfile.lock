@@ -1,0 +1,65 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Firebase (2.5.1)
+  - IQAudioRecorderController (1.1.0):
+    - SCSiriWaveformView
+  - JSQMessagesViewController (7.2.0):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MBProgressHUD (0.9.2)
+  - NZCircularImageView (0.0.5):
+    - UIActivityIndicator-for-SDWebImage (~> 1.2)
+  - SCSiriWaveformView (1.0.3)
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+  - URBMediaFocusViewController (0.9.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.6.3)
+  - Firebase
+  - IQAudioRecorderController
+  - JSQMessagesViewController
+  - MBProgressHUD
+  - NZCircularImageView
+  - SDWebImage
+  - URBMediaFocusViewController
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Firebase: 3565ea88b830f28f2c77ecc524622bc71a20d085
+  IQAudioRecorderController: 3a39f09c589c420b0bad09297b8294af08089f5c
+  JSQMessagesViewController: 73cab48aa92fc2d512f3b6724f3425cc47a19eb5
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  NZCircularImageView: cc64eae9a0dd42800b4902dc483b0b37591c3a3d
+  SCSiriWaveformView: b8b2756af42addcd31900c3945f24edafefb5395
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+  URBMediaFocusViewController: 26779e301fe75ec0152fbe8b476bd06ccee9f9b3
+
+PODFILE CHECKSUM: d9b67345b436c051cfd4d136cd59ec158eea6683
+
+COCOAPODS: 1.0.0
